@@ -96,7 +96,8 @@ const timelineBar = document.getElementById('timeline');
             activity.appendChild(itemProgress);
             latestActivity = key;
 
-            timelineBar.appendChild(itemProgress); // fill the timeline
+            // fill the timeline
+            timelineBar.appendChild(itemProgress.cloneNode());
         }
         if (latestActivity)
             activity.innerHTML += `<p>${entry.activity[latestActivity]} (${latestActivity})</p>`;
