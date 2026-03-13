@@ -5,7 +5,7 @@
         "category": "Yuri",
         "name": "Adachi and Shimamura",
         "status": "On-going",
-        "watched": "V 3",
+        "progress": {},
         "shelf": "Active"
     },
     {
@@ -14,7 +14,7 @@
         "category": "",
         "name": "Hatsune Miku: Acute by Kurousa-P",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": "Active"
     },
     {
@@ -23,7 +23,7 @@
         "category": "Slice of life",
         "name": "Wonder Cat Kyuu-chan ",
         "status": "On-going",
-        "watched": "V 1",
+        "progress": {},
         "shelf": "Active"
     },
     {
@@ -32,7 +32,9 @@
         "category": "Yuri",
         "name": "Happy Sugar Life",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -41,7 +43,9 @@
         "category": "Yuri",
         "name": "Happy Sugar Life",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -50,7 +54,9 @@
         "category": "Sad",
         "name": "Girls' Last Tour",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -59,7 +65,9 @@
         "category": "",
         "name": "The Marrow Thives",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -68,7 +76,9 @@
         "category": "Thought-provoking",
         "name": "Three Days of Happiness",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -77,7 +87,9 @@
         "category": "Thought-provoking",
         "name": "If Cats Disappeared from The World",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -86,7 +98,9 @@
         "category": "",
         "name": "Tiếng gọi nơi hoang dã",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -95,7 +109,9 @@
         "category": "",
         "name": "Interstellar",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -104,7 +120,9 @@
         "category": "Cute",
         "name": "Wataten",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -113,7 +131,9 @@
         "category": "Funny",
         "name": "Gabriel Dropout",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -122,7 +142,9 @@
         "category": "Funny",
         "name": "Hitoribocchi no Monologue",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -131,7 +153,9 @@
         "category": "Thought-provoking",
         "name": "The Man in the Case",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -140,7 +164,9 @@
         "category": "Gender",
         "name": "Kanojo ni Naru Hi",
         "status": "Finished",
-        "watched": "C 20",
+        "progress": {
+            "2026-01-01": "C 20"
+        },
         "shelf": "Done"
     },
     {
@@ -149,7 +175,9 @@
         "category": "Slice of life",
         "name": "Slow Start",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -158,7 +186,9 @@
         "category": "",
         "name": "Our Lives After the Apocalypse",
         "status": "Finished",
-        "watched": "C 20",
+        "progress": {
+            "2026-01-01": "C 20"
+        },
         "shelf": "Done"
     },
     {
@@ -167,7 +197,9 @@
         "category": "Slice of life",
         "name": "Stardust Telepath",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -176,7 +208,9 @@
         "category": "Sad",
         "name": "Deemo: Memorial Keys",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -185,7 +219,9 @@
         "category": "Sad",
         "name": "DEEMO -Prelude-",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -194,7 +230,9 @@
         "category": "Sad",
         "name": "DEEMO -Sakura Note-",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -203,7 +241,9 @@
         "category": "Funny",
         "name": "The Dictator",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -212,7 +252,9 @@
         "category": "Gender",
         "name": "Onimai",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -221,7 +263,9 @@
         "category": "Slice of life",
         "name": "Comic Girls",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -230,7 +274,9 @@
         "category": "",
         "name": "Your Name",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -239,7 +285,9 @@
         "category": "",
         "name": "Your Name",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -248,7 +296,7 @@
         "category": "Slice of life",
         "name": "Yuru Camp",
         "status": "On-going",
-        "watched": "S 1",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -257,7 +305,9 @@
         "category": "Yuri",
         "name": "I Don't Want A Happy Ending",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -266,7 +316,9 @@
         "category": "Sad",
         "name": "Takopi’s Original Sin",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -275,7 +327,7 @@
         "category": "",
         "name": "Shimeji Simulation",
         "status": "Finished",
-        "watched": "C 18",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -284,7 +336,7 @@
         "category": "Gender",
         "name": "My senpai is an otokonoko",
         "status": "Finished",
-        "watched": "E 2",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -293,7 +345,7 @@
         "category": "",
         "name": "Made in Abyss",
         "status": "On-going",
-        "watched": "C 46.2",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -302,7 +354,9 @@
         "category": "Yuri",
         "name": "Lycoris Recoil Ordinary days",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -311,7 +365,7 @@
         "category": "Yuri",
         "name": "She Loves to Cook, and She Loves to Eat",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -320,7 +374,7 @@
         "category": "Yuri",
         "name": "Our teachers are dating",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -329,7 +383,7 @@
         "category": "Yuri",
         "name": "FVRL list",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -338,7 +392,7 @@
         "category": "Gender",
         "name": "I Wanna Be Your Girl ",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -347,7 +401,7 @@
         "category": "Gender",
         "name": "Ma vie en rose",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -356,7 +410,7 @@
         "category": "Romance",
         "name": "Snow White With the Red Hair",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -365,7 +419,7 @@
         "category": "",
         "name": "crocodile dundee",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -374,7 +428,7 @@
         "category": "",
         "name": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -383,7 +437,7 @@
         "category": "",
         "name": "Umamusume Umamusume: Cinderella Gray",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -392,7 +446,7 @@
         "category": "Gender",
         "name": "The Danish Girl",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -401,7 +455,9 @@
         "category": "Gender",
         "name": "The Bride Was A Boy",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -410,7 +466,9 @@
         "category": "",
         "name": "Kemono friends : Welcome to Japari Park!",
         "status": "Finished",
-        "watched": "C 18",
+        "progress": {
+            "2026-01-01": "C 18"
+        },
         "shelf": "Done"
     },
     {
@@ -419,7 +477,7 @@
         "category": "Gender",
         "name": "Otoko no ko tsuma",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -428,7 +486,7 @@
         "category": "Yuri",
         "name": "Cosmic Princess Kaguya ",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -437,7 +495,7 @@
         "category": "Gender",
         "name": "Kashimashi",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -446,7 +504,7 @@
         "category": "Laws",
         "name": "UoT Tribunal decision",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -455,7 +513,7 @@
         "category": "Science",
         "name": "Flatland",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -464,7 +522,7 @@
         "category": "Gender",
         "name": "Hourou Musuko",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -473,7 +531,9 @@
         "category": "Advice",
         "name": "The Last Lecture",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -482,7 +542,7 @@
         "category": "Advice",
         "name": "The Subtle art of not giving a fuck",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -491,7 +551,7 @@
         "category": "",
         "name": "My clueless first friend",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -500,7 +560,7 @@
         "category": "",
         "name": "Sora yori mo Tooi Basho",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -509,7 +569,7 @@
         "category": "",
         "name": "Mooncakes by Suzanne Walker",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -518,7 +578,7 @@
         "category": "",
         "name": "Interspecies Reviewers",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -527,7 +587,7 @@
         "category": "",
         "name": "When Marnie was there",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -536,7 +596,7 @@
         "category": "",
         "name": "Saint Cecilia and Pastor Lawrence",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -545,7 +605,7 @@
         "category": "",
         "name": "Shuumatsu Touring",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -554,7 +614,7 @@
         "category": "Yuri",
         "name": "Whisper Me A Love Song",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -563,7 +623,7 @@
         "category": "",
         "name": "Joshiraku ",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -572,7 +632,7 @@
         "category": "",
         "name": "Joshiraku",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -581,7 +641,7 @@
         "category": "",
         "name": "The Weakest Tamer Began a Journey to Pick Up Trash ",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -590,7 +650,7 @@
         "category": "Yuri",
         "name": "Beauty and the Beast girl",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -599,7 +659,7 @@
         "category": "Slice of life",
         "name": "Slow loop",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -608,7 +668,7 @@
         "category": "",
         "name": "Train to the End of the World",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -617,7 +677,7 @@
         "category": "",
         "name": "Pon no Michi",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -626,7 +686,7 @@
         "category": "",
         "name": "Umayon",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -635,7 +695,7 @@
         "category": "",
         "name": "I Was Reincarnated as the 7th Prince",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -644,7 +704,7 @@
         "category": "",
         "name": "Ueno-san wa bukiyou",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -653,7 +713,7 @@
         "category": "",
         "name": "Ueno-san wa bukiyou",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -662,7 +722,7 @@
         "category": "",
         "name": "I Was Reincarnated as the 7th Prince",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -671,7 +731,7 @@
         "category": "",
         "name": "Non non biyori",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -680,7 +740,7 @@
         "category": "",
         "name": "Non non biyori",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -689,7 +749,7 @@
         "category": "",
         "name": "Yuru yuri",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -698,7 +758,7 @@
         "category": "",
         "name": "Yuru yuri",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -707,7 +767,7 @@
         "category": "",
         "name": "Uzaki-chan wa asobitai ",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -716,7 +776,7 @@
         "category": "",
         "name": "Please go home, akutsu-san",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -725,7 +785,7 @@
         "category": "",
         "name": "Kimi ni Todoke",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -734,7 +794,7 @@
         "category": "",
         "name": "Kizuna no Allele",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -743,7 +803,7 @@
         "category": "",
         "name": "Horimiya",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -752,7 +812,7 @@
         "category": "",
         "name": "The Family Circumstances of the Irregular Witch",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -761,7 +821,7 @@
         "category": "",
         "name": "Mikagura school suite",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -770,7 +830,7 @@
         "category": "",
         "name": "Mondaiji",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -779,7 +839,7 @@
         "category": "",
         "name": "Towaka no monday",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -788,7 +848,7 @@
         "category": "",
         "name": "My company's small senpai",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -797,7 +857,7 @@
         "category": "",
         "name": "Maquia",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -806,7 +866,7 @@
         "category": "",
         "name": "planetarian",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -815,7 +875,7 @@
         "category": "",
         "name": "Tadokoro-san",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -824,7 +884,7 @@
         "category": "",
         "name": "My father become vtuber girl",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -833,7 +893,7 @@
         "category": "",
         "name": "Toradora",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -842,7 +902,7 @@
         "category": "",
         "name": "Little witch academia",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -851,7 +911,7 @@
         "category": "",
         "name": "The Devil is a part timer",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -860,7 +920,7 @@
         "category": "",
         "name": "You are Ms. servant",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -869,7 +929,7 @@
         "category": "",
         "name": "Kuma kuma kuma bear",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -878,7 +938,7 @@
         "category": "",
         "name": "Gushing Over Magical Girls",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -887,7 +947,7 @@
         "category": "",
         "name": "Aiura",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -896,7 +956,7 @@
         "category": "Yuri",
         "name": "Bloom into you ",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -905,7 +965,7 @@
         "category": "Yuri",
         "name": "Kimini tsumugu bouhaku",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -914,7 +974,7 @@
         "category": "",
         "name": "Violet Evergarden",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -923,7 +983,7 @@
         "category": "",
         "name": "Brand New Animal",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -932,7 +992,7 @@
         "category": "",
         "name": "Princess connect",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -941,7 +1001,7 @@
         "category": "",
         "name": "Manaria friends",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -950,7 +1010,7 @@
         "category": "",
         "name": "Tsurezure children",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -959,7 +1019,7 @@
         "category": "",
         "name": "Spy X family",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -968,7 +1028,7 @@
         "category": "",
         "name": "Yuushibu",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -977,7 +1037,7 @@
         "category": "Yuri",
         "name": "Love lab",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -986,7 +1046,7 @@
         "category": "",
         "name": "Myriad Colors Phantom World",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -995,7 +1055,7 @@
         "category": "",
         "name": "yama no susume",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1004,7 +1064,7 @@
         "category": "",
         "name": "somali to mori",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1013,7 +1073,7 @@
         "category": "",
         "name": "BanG Dream",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1022,7 +1082,7 @@
         "category": "",
         "name": "Kotoura-san",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1031,7 +1091,7 @@
         "category": "",
         "name": "I turned my childhood friend into a girl",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1040,7 +1100,7 @@
         "category": "",
         "name": "Keppeki Danshi! Aoyama-kun",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1049,7 +1109,7 @@
         "category": "",
         "name": "Uramichi oniisan",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1058,7 +1118,7 @@
         "category": "",
         "name": "Redo of healer",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1067,7 +1127,7 @@
         "category": "",
         "name": "Asobi asobase (funny);",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1076,7 +1136,7 @@
         "category": "",
         "name": "Akkun to kanojo",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1085,7 +1145,7 @@
         "category": "Yuri",
         "name": "I'm in Love with the Villainess",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1094,7 +1154,7 @@
         "category": "",
         "name": "Uzamaid",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1103,7 +1163,7 @@
         "category": "",
         "name": "Shut-in vampire princess",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1112,7 +1172,9 @@
         "category": "",
         "name": "The Melancholy of Haruhi Suzumiya",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1121,7 +1183,9 @@
         "category": "",
         "name": "Funeral Songs for Dying Girls",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1130,7 +1194,9 @@
         "category": "",
         "name": "The Prince and The Dressmaker",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1139,7 +1205,9 @@
         "category": "",
         "name": "Cho tới khi em yêu anh thêm lần nữa",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1148,7 +1216,9 @@
         "category": "",
         "name": "Le petit prince",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1157,7 +1227,9 @@
         "category": "",
         "name": "OMORI",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1166,7 +1238,9 @@
         "category": "",
         "name": "Project Wingman",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1175,7 +1249,7 @@
         "category": "",
         "name": "The Journey of Elaina (Vietnamese)",
         "status": "On-going",
-        "watched": "V 6",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -1184,7 +1258,7 @@
         "category": "",
         "name": "Konosuba",
         "status": "On-going",
-        "watched": "S 2",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -1193,7 +1267,9 @@
         "category": "",
         "name": "Konosuba: Legend of Crimson",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1202,7 +1278,9 @@
         "category": "",
         "name": "Saiki kusuo",
         "status": "Finished",
-        "watched": "S 2",
+        "progress": {
+            "2026-01-01": "S 2"
+        },
         "shelf": "Done"
     },
     {
@@ -1211,7 +1289,9 @@
         "category": "",
         "name": "Eromanga Sensei",
         "status": "Finished",
-        "watched": "S 1",
+        "progress": {
+            "2026-01-01": "S 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1220,7 +1300,9 @@
         "category": "Yuri",
         "name": "Ichido Dake Demo, Koukai Shitemasu",
         "status": "Finished",
-        "watched": "V 3",
+        "progress": {
+            "2026-01-01": "V 3"
+        },
         "shelf": "Done"
     },
     {
@@ -1229,7 +1311,7 @@
         "category": "",
         "name": "Tonikaku Kawaii",
         "status": "On-going",
-        "watched": "S 1",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1238,7 +1320,7 @@
         "category": "Gender",
         "name": "I want to be a cute anime girl (Version Française)",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -1247,7 +1329,7 @@
         "category": "",
         "name": "WEE !!!",
         "status": "On-going",
-        "watched": "",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -1256,7 +1338,9 @@
         "category": "",
         "name": "Things explainer",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1265,7 +1349,7 @@
         "category": "",
         "name": "What if?",
         "status": "Finished",
-        "watched": "V 2 (not V 1)",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -1274,7 +1358,9 @@
         "category": "",
         "name": "Wall-E",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1283,7 +1369,7 @@
         "category": "",
         "name": "Frozen",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -1292,7 +1378,7 @@
         "category": "",
         "name": "Avatar",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {},
         "shelf": "Drop"
     },
     {
@@ -1301,7 +1387,9 @@
         "category": "",
         "name": "Titanic",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1310,7 +1398,7 @@
         "category": "",
         "name": "Kung-fu Panda",
         "status": "On-going",
-        "watched": "V 4",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1319,7 +1407,9 @@
         "category": "",
         "name": "Oppenheimer",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1328,7 +1418,7 @@
         "category": "",
         "name": "FNAF movie",
         "status": "On-going",
-        "watched": "V 1",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1337,7 +1427,9 @@
         "category": "",
         "name": "The Menu",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1346,7 +1438,9 @@
         "category": "",
         "name": "Call Me by Your Name",
         "status": "Finished",
-        "watched": "V 1",
+        "progress": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Done"
     },
     {
@@ -1355,7 +1449,9 @@
         "category": "",
         "name": "Madagascar",
         "status": "Finished",
-        "watched": "V 3",
+        "progress": {
+            "2026-01-01": "V 3"
+        },
         "shelf": "Done"
     },
     {
@@ -1364,7 +1460,9 @@
         "category": "",
         "name": "Lamp at Noon",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -1373,7 +1471,9 @@
         "category": "",
         "name": "White Painted Door",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -1382,7 +1482,9 @@
         "category": "",
         "name": "Travelling Cat Chronicles",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-03-06": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -1391,7 +1493,7 @@
         "category": "",
         "name": "A Student's Guide to Vectors and Tensors",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": "Active"
     },
     {
@@ -1400,7 +1502,9 @@
         "category": "",
         "name": "Schindler's List",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-01-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -1409,7 +1513,7 @@
         "category": "Gender",
         "name": "My Androgynous Boyfriend",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": ""
     },
     {
@@ -1418,7 +1522,9 @@
         "category": "Wholesome",
         "name": "When I Returned to My Hometown, My Childhood Friend Was Broken",
         "status": "Finished",
-        "watched": "C 50",
+        "progress": {
+            "2026-01-01": "C 50"
+        },
         "shelf": "Done"
     },
     {
@@ -1427,7 +1533,9 @@
         "category": "",
         "name": "Never Acquire Clothes the Same Way Again",
         "status": "Finished",
-        "watched": "",
+        "progress": {
+            "2026-02-01": "Completed"
+        },
         "shelf": "Done"
     },
     {
@@ -1436,7 +1544,7 @@
         "category": "",
         "name": "5 Centimeters per Second + Children Who Chase Lost Voices",
         "status": "Finished",
-        "watched": "",
+        "progress": {},
         "shelf": "Active"
     }
 ]
