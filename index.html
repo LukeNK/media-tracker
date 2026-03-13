@@ -37,23 +37,23 @@ let timeline = {
     for (const entry of database) {
         const item = document.createElement('li'),
             info = document.createElement('div'),
-            progress = document.createElement('div');
+            activity = document.createElement('div');
 
         info.classList.add('info');
         info.innerHTML = `
             <span class="short">${entry.length}</span><span class="long">${entry.category}</span>
             <span class="short">${entry.status}</span><span class="long">${entry.name}</span>`;
 
-        progress.classList.add('progress');
-        for (const key in entry.progress) {
+        activity.classList.add('activity');
+        for (const key in entry.activity) {
             const itemProgress = document.createElement('span');
             const progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
             itemProgress.style.width = `${progressPercent * 100}%`;
-            progress.appendChild(itemProgress);
+            activity.appendChild(itemProgress);
         }
 
         item.appendChild(info);
-        item.appendChild(progress);
+        item.appendChild(activity);
         tableBody.appendChild(item);
     }
 })();
