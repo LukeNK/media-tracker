@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.sendFile('index.html', { root: '.' });
 });
 
-app.get('/database', (req, res) => {
+app.get('/database.json', (req, res) => {
     res.sendFile('database.json', { root: '.' });
 });
 
