@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    --color-fg: #04080fff;
+    --color-bg: #f0f0f0;
+    --color-bg-theme: #bbd1eaff;
+    --color-bg-alt: #dae3e5ff;
+    --color-theme: #507dbcff;
+    --powder-blue: #a1c6eaff;
+
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-bg-theme);
+    color: var(--color-fg);
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-optical-sizing: auto;
+}
+
+main {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 70rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+}
+
+a {
+    color: var(--color-theme);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.overflow{
+    overflow-x: scroll;
+}
+table {
+    width: 100%;
+    min-width: 50rem;
+    border-collapse: collapse;
+}
+td, th {
+    padding: 0.5rem;
+    border: 2px solid var(--color-bg-alt);
+}
+
+div.progress {
+    display: block;
+    height: 1rem;
+    border-right: 2px solid var(--color-theme);
+    position: absolute;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin: 2rem;
+}
+
+footer a {
+    color: var(--color-fg);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 50rem) {
+    main {
+        margin: 0;
+        border-radius: 0;
+    }
+}
