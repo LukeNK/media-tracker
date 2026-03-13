@@ -46,23 +46,25 @@ let timeline = {
     // Populate table
     const tableBody = document.getElementById('database-body');
     for (const entry of database) {
-        const row = document.createElement('tr');
-        const name = document.createElement('td');
-        const progress = document.createElement('td');
+        const row = document.createElement('tr'),
+            name = document.createElement('td'),
+            progress = document.createElement('td'),
+            proInfo = document.createElement('span');
 
         name.textContent = entry.name;
 
         // Handle progress
+        progress.classList.add('progress');
         for (const key in entry.progress) {
-            const item = entry.progress[key];
             const itemProgress = document.createElement('div');
-            itemProgress.classList.add('progress');
             const progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
-            console.log(item.date, progressPercent * 100);
             itemProgress.style.width = `${progressPercent * 100}%`;
             progress.appendChild(itemProgress);
+
+            proInfo.innerHTML += `${entry.progress[key]} on ${key}<br>`;
         }
 
+        progress.appendChild(proInfo);
         row.appendChild(name);
         row.appendChild(progress);
         tableBody.appendChild(row);

@@ -55,11 +55,23 @@ td, th {
     border: 2px solid var(--color-bg-alt);
 }
 
-div.progress {
+.progress div {
     display: block;
     height: 1rem;
     border-right: 2px solid var(--color-theme);
     position: absolute;
+}
+.progress span {
+    display: none
+}
+.progress:hover span {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+    background-color: var(--color-theme);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
 }
 
 footer {
