@@ -12,7 +12,11 @@
     <main>
         <h1>Media tracker</h1>
 
+        <h2>Database</h2>
         <ul id="database"></ul>
+
+        <h2>Activities</h2>
+        <div id="timeline" class="activity"></div>
     </main>
     <footer>
         <img src="https://lukenk.github.io/print/letterhead.svg" style="height: inherit;">
@@ -23,7 +27,7 @@
 <script>
 let timeline = {
     start: new Date('2026-01-01'),
-    end: new Date('2026-12-31'),
+    end: new Date(),
 };
 
 (async () => {
@@ -45,17 +49,33 @@ let timeline = {
             <span class="short">${entry.status}</span><span class="long">${entry.name}</span>`;
 
         activity.classList.add('activity');
+        let latestActivity = '';
         for (const key in entry.activity) {
             const itemProgress = document.createElement('span');
-            const progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
+            let progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
+            progressPercent = Math.max(progressPercent, 0);
             itemProgress.style.width = `${progressPercent * 100}%`;
             activity.appendChild(itemProgress);
+            latestActivity = key;
         }
+        if (latestActivity)
+            activity.innerHTML += `<p>${entry.activity[latestActivity]} (${latestActivity})</p>`;
 
         item.appendChild(info);
         item.appendChild(activity);
         tableBody.appendChild(item);
     }
+
+    // Timeline
+    const timelineBar = document.getElementById('timeline');
+    for (const entry of database)
+        for (const key in entry.activity) {
+            const itemProgress = document.createElement('span');
+            let progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
+            progressPercent = Math.max(progressPercent, 0);
+            itemProgress.style.width = `${progressPercent * 100}%`;
+            timelineBar.appendChild(itemProgress);
+        }
 })();
 </script>
 </html>

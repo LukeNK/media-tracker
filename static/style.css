@@ -46,6 +46,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-bottom: 1rem;
 
     .info {
         flex: 2 1 0;
@@ -64,17 +65,21 @@ li {
             width: 75%;
         }
     }
+}
 
-    .activity {
-        flex: 1 1 0;
-        min-width: 10rem;
-        position: relative;
+.activity {
+    flex: 1 1 0;
+    min-width: 10rem;
+    position: relative;
 
-        span {
-            height: 1rem;
-            border-right: 2px solid var(--color-theme);
-            position: absolute;
-        }
+    span {
+        height: 1rem;
+        border-right: 2px solid var(--color-theme);
+        position: absolute;
+    }
+
+    p {
+        margin-bottom: 0;
     }
 }
 
