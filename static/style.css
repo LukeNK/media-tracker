@@ -42,36 +42,40 @@ a:hover {
     text-decoration: underline;
 }
 
-.overflow{
-    overflow-x: scroll;
-}
-table {
-    width: 100%;
-    min-width: 50rem;
-    border-collapse: collapse;
-}
-td, th {
-    padding: 0.5rem;
-    border: 2px solid var(--color-bg-alt);
-}
+li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 
-.progress div {
-    display: block;
-    height: 1rem;
-    border-right: 2px solid var(--color-theme);
-    position: absolute;
-}
-.progress span {
-    display: none
-}
-.progress:hover span {
-    display: block;
-    position: absolute;
-    top: 1.5rem;
-    right: 0;
-    background-color: var(--color-theme);
-    padding: 0.25rem 0.5rem;
-    border-radius: 0.25rem;
+    .info {
+        flex: 2 1 0;
+        min-width: 20rem;
+        display: flex;
+    }
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0.5rem;
+
+        .short {
+            width: 20%;
+        }
+        .long {
+            width: 75%;
+        }
+    }
+
+    .progress {
+        flex: 1 1 0;
+        min-width: 10rem;
+        position: relative;
+
+        span {
+            height: 1rem;
+            border-right: 2px solid var(--color-theme);
+            position: absolute;
+        }
+    }
 }
 
 footer {
