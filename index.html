@@ -32,7 +32,7 @@ let timeline = {
 
 (async () => {
     // Download database
-    let data = await fetch('/database.json');
+    let data = await fetch('./database.json');
     const database = await data.json();
     console.log(database);
 
