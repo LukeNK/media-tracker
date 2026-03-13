@@ -11,6 +11,19 @@
 <body>
     <main>
         <h1>Media tracker</h1>
+
+        <div class="overflow">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <td>Progress</td>
+                    </tr>
+                </thead>
+                <tbody id="database-body">
+                </tbody>
+            </table>
+        </div>
     </main>
     <footer>
         <img src="https://lukenk.github.io/print/letterhead.svg" style="height: inherit;">
@@ -19,11 +32,41 @@
 </body>
 
 <script>
+let timeline = {
+    start: new Date('2026-01-01'),
+    end: new Date('2026-12-31'),
+};
+
 (async () => {
     // Download database
     let data = await fetch('/database');
     const database = await data.json();
     console.log(database);
+
+    // Populate table
+    const tableBody = document.getElementById('database-body');
+    for (const entry of database) {
+        const row = document.createElement('tr');
+        const name = document.createElement('td');
+        const progress = document.createElement('td');
+
+        name.textContent = entry.name;
+
+        // Handle progress
+        for (const key in entry.progress) {
+            const item = entry.progress[key];
+            const itemProgress = document.createElement('div');
+            itemProgress.classList.add('progress');
+            const progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
+            console.log(item.date, progressPercent * 100);
+            itemProgress.style.width = `${progressPercent * 100}%`;
+            progress.appendChild(itemProgress);
+        }
+
+        row.appendChild(name);
+        row.appendChild(progress);
+        tableBody.appendChild(row);
+    }
 })();
 </script>
 </html>
