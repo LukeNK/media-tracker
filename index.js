@@ -1,7 +1,9 @@
 import express from 'express';
+import bodyParser from 'body-parser';
 import fs from 'fs';
 
 const app = express();
+app.use(bodyParser.json());
 
 // Basic routes that should be available without the server
 // These routes will be available as static files in GitHub Pages
@@ -18,6 +20,12 @@ app.get('/database.json', (req, res) => {
 // API routes for the server
 app.get('/api/ping', (req, res) => {
     res.send('pong');
+});
+
+app.post('/api/add', (req, res) => {
+    // get the request, rewrite to the file
+    fs.writeFileSync('database.json', JSON.stringify(req.body, null, 4));
+    res.send('ok');
 });
 
 app.listen(80, () => {
