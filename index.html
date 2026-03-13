@@ -2,12 +2,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/style.css">
+
     <title>Media tracker</title>
 </head>
+
 <body>
-
+    <main>
+        <h1>Media tracker</h1>
+    </main>
+    <footer>
+        <img src="https://lukenk.github.io/print/letterhead.svg" style="height: inherit;">
+        <a href="https://lyricstranslate.com/en/translator/lukenk">LukeNK</a>
+    </footer>
 </body>
-<script>
 
+<script>
+(async () => {
+    // Download database
+    let data = await fetch('/database');
+    const database = await data.json();
+    console.log(database);
+})();
 </script>
 </html>
