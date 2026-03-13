@@ -17,6 +17,40 @@
 
         <h2>Activities</h2>
         <div id="timeline" class="activity"></div>
+
+        <div id="add">
+            <h2>Add</h2>
+
+            <select name="format" id="format">
+                <option value="Anime">Anime</option>
+                <option value="Manga">Manga</option>
+                <option value="Novel">Novel</option>
+                <option value="Film">Film</option>
+            </select>
+
+            <select name="length" id="length">
+                <option value="Short">Short</option>
+                <option value="Single">Single-session</option>
+                <option value="Volume">Single-volume</option>
+                <option value="Series">Series</option>
+            </select>
+
+            <input type="text" name="category" id="category">
+
+            <input type="text" name="name" id="name" placeholder="Name">
+
+            <select name="status" id="status">
+                <option value="On-going">On-going</option>
+                <option value="Finished">Finished</option>
+            </select>
+
+            <select name="shelf" id="shelf">
+                <option value="Active">Active</option>
+                <option value="Completed">Completed</option>
+                <option value="Dropped">Dropped</option>
+            </select>
+            <button onclick="submit()">Add</button>
+        </div>
     </main>
     <footer>
         <img src="https://lukenk.github.io/print/letterhead.svg" style="height: inherit;">
@@ -29,15 +63,18 @@ let timeline = {
     start: new Date('2026-01-01'),
     end: new Date(),
 };
+let database = {};
+
+const tableBody = document.getElementById('database');
+const timelineBar = document.getElementById('timeline');
 
 (async () => {
     // Download database
     let data = await fetch('./database.json');
-    const database = await data.json();
+    database = await data.json();
     console.log(database);
 
     // Populate table
-    const tableBody = document.getElementById('database');
     for (const entry of database) {
         const item = document.createElement('li'),
             info = document.createElement('div'),
@@ -55,8 +92,11 @@ let timeline = {
             let progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
             progressPercent = Math.max(progressPercent, 0);
             itemProgress.style.width = `${progressPercent * 100}%`;
+
             activity.appendChild(itemProgress);
             latestActivity = key;
+
+            timelineBar.appendChild(itemProgress); // fill the timeline
         }
         if (latestActivity)
             activity.innerHTML += `<p>${entry.activity[latestActivity]} (${latestActivity})</p>`;
@@ -65,17 +105,49 @@ let timeline = {
         item.appendChild(activity);
         tableBody.appendChild(item);
     }
-
-    // Timeline
-    const timelineBar = document.getElementById('timeline');
-    for (const entry of database)
-        for (const key in entry.activity) {
-            const itemProgress = document.createElement('span');
-            let progressPercent = (new Date(key) - timeline.start) / (timeline.end - timeline.start);
-            progressPercent = Math.max(progressPercent, 0);
-            itemProgress.style.width = `${progressPercent * 100}%`;
-            timelineBar.appendChild(itemProgress);
-        }
 })();
+
+(async () => {
+    // Add form for submission
+    let ping = await fetch('./api/ping');
+    if (!ping.ok) return;
+    const form = document.getElementById('add');
+    form.style.display = 'block';
+})();
+
+function submit() {
+    // Add an entry to the database variable
+    const newEntry = {
+        format: document.getElementById('format').value,
+        length: document.getElementById('length').value,
+        category: document.getElementById('category').value,
+        name: document.getElementById('name').value,
+        status: document.getElementById('status').value,
+        shelf: document.getElementById('shelf').value,
+        activity: {
+            [new Date().toISOString().split('T')[0]]: 'Added to database',
+        },
+    };
+    database.push(newEntry);
+
+    // Send the entire database to the server
+    fetch('./api/add', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(database),
+    }).then(response => {
+        if (response.ok) {
+            alert('Entry added successfully!');
+            location.reload();
+        } else {
+            alert('Failed to add entry. Please try again.');
+        }
+    }).catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while adding the entry. Please try again.');
+    });
+}
 </script>
 </html>

@@ -10,7 +10,10 @@ body{
     --color-bg-theme: #bbd1eaff;
     --color-bg-alt: #dae3e5ff;
     --color-theme: #507dbcff;
-    --powder-blue: #a1c6eaff;
+
+    --color-green: #7ef383;
+    --color-blue: #a1c6eaff;
+    --color-red: #ffb9b4;
 
     padding: 0;
     margin: 0;
@@ -78,9 +81,27 @@ li {
         position: absolute;
     }
 
+    span[ok] {
+        border-color: var(--color-green);
+    }
+    span[mid] {
+        border-color: var(--color-blue);
+    }
+    span[err] {
+        border-color: var(--color-red);
+    }
+
     p {
         margin-bottom: 0;
     }
+}
+
+#timeline {
+    height: 1rem
+}
+
+#add {
+    display: none;
 }
 
 footer {
