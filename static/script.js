@@ -101,7 +101,7 @@ document.getElementById('add').addEventListener('submit', function(e) {
         category: document.getElementById('category').value,
         name: document.getElementById('name').value,
         status: document.getElementById('status').value,
-        shelf: document.getElementById('shelf').value,
+        shelf: "",
         activity: {
             [new Date().toISOString().split('T')[0]]: 'Added to database',
         },
@@ -133,8 +133,11 @@ document.getElementById('update').addEventListener('submit', function(e) {
     // Log datetime and activity to the database
     const mediaId = this.getAttribute('media');
     const activity = document.getElementById('activity').value;
-    if (!activity) return;
-    database[mediaId].activity[new Date().toISOString().split('T')[0]] = activity;
+    database[mediaId].shelf = document.getElementById('shelf').value;
+
+    if (activity)
+        database[mediaId].activity[new Date().toISOString().split('T')[0]] =
+            activity;
 
     sendToServer();
 });

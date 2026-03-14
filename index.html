@@ -21,7 +21,7 @@
         <ul id="database"></ul>
         <details>
             <summary>How to read the database</summary>
-            <p>If the left border is green, that means the media is completed (fully released).</p>
+            <p>If the left border is green, that means the media is completed (fully released). Note that this information is not in real-time.</p>
             <p>If the activity log is a green square, that means that we are done with the media; if it is red, that means we dropped it; if it is blue, that means it is active.</p>
         </details>
 
@@ -69,23 +69,8 @@
                     <p>"Finished" means that the media as been completed and there is no expected continuation.</p>
                 </details>
 
-                <label for="shelf">Shelf</label>
-                <select name="shelf" id="shelf">
-                    <option value="Active">Active</option>
-                    <option value="Done">Done</option>
-                    <option value="Dropped">Dropped</option>
-                </select>
-                <details>
-                    <summary>Your current status with the media</summary>
-                    <p>
-                        Active: you are actively following and getting the newest version
-                        <br>Done: you have reached the (foreseeable) ending
-                        <br>Dropped: you have stop following it even though you haven't reached the end
-                        <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
-                    </p>
-                </details>
-
-                <p id="warning">Please check the connection status and make sure there is no conflict with the database. The version you see here will overide the version on the server.</p>
+                <p class="warning">The default shelf is "None," aka planning.</p>
+                <p id="warning" class="warning">Please check the connection status and make sure there is no conflict with the database. The version you see here will overide the version on the server.</p>
                 <button type="submit">Add</button>
             </form>
 
@@ -98,6 +83,23 @@
                     <p>
                         V: volume, S: season, C: chapter
                         <br>We need to keep track of this even for completed read just in case there is a new chapter. Entries that has activities but not in any shelf means we are planning to follow it. If it is on the dropped shelf, that means there is no plan to continue.
+                    </p>
+                </details>
+
+                <label for="shelf">Shelf</label>
+                <select name="shelf" id="shelf">
+                    <option value="">None</option>
+                    <option value="Active">Active</option>
+                    <option value="Done">Done</option>
+                    <option value="Drop">Drop</option>
+                </select>
+                <details>
+                    <summary>Your current status with the media</summary>
+                    <p>
+                        Active: you are actively following and getting the newest version
+                        <br>Done: you have reached the (foreseeable) ending
+                        <br>Drop: you have stop following it even though you haven't reached the end
+                        <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
                     </p>
                 </details>
 
