@@ -77,7 +77,6 @@ li {
     }
 }
 
-
 form {
     margin: 0 auto;
     max-width: 25rem;
@@ -96,6 +95,9 @@ input, select, button {
     border: none;
     border-radius: 0.25rem;
     background-color: var(--color-theme);
+    color: var(--color-fg);
+}
+input::placeholder {
     color: var(--color-fg);
 }
 
