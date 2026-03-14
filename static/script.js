@@ -46,6 +46,8 @@ function sendToServer() {
             info = document.createElement('div'),
             activity = document.createElement('div');
 
+        item.classList.add(entry.status == 'Finished' ? 'ok' : 'no');
+
         info.classList.add('info');
         info.innerHTML = `
             <span class="short">${entry.length}</span><span class="long">${entry.category}</span>
@@ -68,6 +70,10 @@ function sendToServer() {
         }
         if (latestActivity)
             activity.innerHTML += `<p>${entry.activity[latestActivity]} (${latestActivity})</p>`;
+
+        if (entry.shelf == 'Active') activity.classList.add('ok');
+        else if (entry.shelf == 'Dropped') activity.classList.add('no');
+        else if (entry.shelf == 'Done') activity.classList.add('er');
 
         // Event to log activity
         info.addEventListener('click', function() {

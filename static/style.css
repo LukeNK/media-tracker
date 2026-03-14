@@ -11,8 +11,10 @@ body{
     --color-theme: #507dbcff;
 
     --color-green: #7ef383;
-    --color-blue: #a1c6eaff;
-    --color-red: #ffb9b4;
+
+    --color-dark-green: #4e7d4e;
+    --color-blue: rgb(18, 43, 68);
+    --color-red: #510d0a;
 
     padding: 0;
     margin: 0;
@@ -49,6 +51,7 @@ li {
     flex-wrap: wrap;
     gap: 1rem;
     margin-bottom: 1rem;
+    padding-left: 1rem;
 
     .info {
         flex: 2 1 0;
@@ -63,6 +66,14 @@ li {
         .long {
             width: 75%;
         }
+    }
+
+    &.ok {
+        border-left: 0.25rem solid var(--color-green);
+    }
+
+    &.no {
+        border-left: 0.25rem solid var(--color-bg);
     }
 }
 
@@ -103,14 +114,14 @@ button {
         position: absolute;
     }
 
-    span[ok] {
-        border-color: var(--color-green);
+    &.ok span {
+        background-color: var(--color-blue);
     }
-    span[mid] {
-        border-color: var(--color-blue);
+    &.no span {
+        background-color: var(--color-red);
     }
-    span[err] {
-        border-color: var(--color-red);
+    &.er span {
+        border-width: 1rem;
     }
 
     p {
