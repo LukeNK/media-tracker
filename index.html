@@ -33,13 +33,14 @@
                 <select name="format" id="format">
                     <option value="Anime">Anime</option>
                     <option value="Manga">Manga</option>
-                    <option value="Novel">Novel</option>
+                    <option value="Story">Story</option>
                     <option value="Film">Film</option>
+                    <option value="Game">Game</option>
+                    <option value="Non-fiction">Non-fiction</option>
                 </select>
 
                 <label for="length">Length</label>
                 <select name="length" id="length">
-                    <option value="Short">Short</option>
                     <option value="Single">Single-session</option>
                     <option value="Volume">Single-volume</option>
                     <option value="Series">Series</option>
@@ -47,6 +48,7 @@
                 </select>
                 <details>
                     <summary>The length of the media</summary>
+                    <p>A feature-length film can be categorized as a "Single" entry, but when it has multiple volumes, it should be classified as a "Series."</p>
                     <p>For collection, it is best to decompose it into multiple entries unless the collection is on-going.</p>
                 </details>
 
@@ -69,7 +71,7 @@
                 <label for="shelf">Shelf</label>
                 <select name="shelf" id="shelf">
                     <option value="Active">Active</option>
-                    <option value="Completed">Completed</option>
+                    <option value="Done">Done</option>
                     <option value="Dropped">Dropped</option>
                 </select>
                 <details>
@@ -77,12 +79,12 @@
                     <p>
                         Active: you are actively following and getting the newest version
                         <br>Done: you have reached the (foreseeable) ending
-                        <br>Drop: you have stop following it even though you haven't reached the end
+                        <br>Dropped: you have stop following it even though you haven't reached the end
                         <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
                     </p>
                 </details>
 
-                <p id="warning"></p>
+                <p id="warning">Please check the connection status and make sure there is no conflict with the database. The version you see here will overide the version on the server.</p>
                 <button type="submit">Add</button>
             </form>
 
@@ -98,6 +100,7 @@
                     </p>
                 </details>
 
+                <p id="warning-2">If you completed an entry, please manually move it to the "Done" shelf.</p>
                 <button type="submit">Update</button>
             </form>
         </div>

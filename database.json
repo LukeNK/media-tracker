@@ -14,7 +14,7 @@
     },
     {
         "format": "Manga",
-        "length": "Single",
+        "length": "Volume",
         "category": "",
         "name": "Hatsune Miku: Acute by Kurousa-P",
         "status": "Finished",
@@ -66,8 +66,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "The Marrow Thives",
         "status": "Finished",
@@ -77,8 +77,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "Thought-provoking",
         "name": "Three Days of Happiness",
         "status": "Finished",
@@ -88,8 +88,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "Thought-provoking",
         "name": "If Cats Disappeared from The World",
         "status": "Finished",
@@ -99,8 +99,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "Tiếng gọi nơi hoang dã",
         "status": "Finished",
@@ -155,7 +155,7 @@
     },
     {
         "format": "Story",
-        "length": "Short",
+        "length": "Volume",
         "category": "Thought-provoking",
         "name": "The Man in the Case",
         "status": "Finished",
@@ -286,8 +286,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "Your Name",
         "status": "Finished",
@@ -307,7 +307,7 @@
     },
     {
         "format": "Manga",
-        "length": "Single",
+        "length": "Volume",
         "category": "Yuri",
         "name": "I Don't Want A Happy Ending",
         "status": "Finished",
@@ -355,8 +355,8 @@
         "shelf": "Drop"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "Yuri",
         "name": "Lycoris Recoil Ordinary days",
         "status": "Finished",
@@ -375,7 +375,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "Yuri",
         "name": "Our teachers are dating",
@@ -429,7 +429,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
@@ -457,7 +457,7 @@
     },
     {
         "format": "Manga",
-        "length": "Single",
+        "length": "Volume",
         "category": "Gender",
         "name": "The Bride Was A Boy",
         "status": "Finished",
@@ -514,8 +514,8 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "Science",
         "name": "Flatland",
         "status": "Finished",
@@ -532,8 +532,8 @@
         "shelf": ""
     },
     {
-        "format": "Book",
-        "length": "Single",
+        "format": "Non-fiction",
+        "length": "Volume",
         "category": "Advice",
         "name": "The Last Lecture",
         "status": "Finished",
@@ -543,8 +543,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Book",
-        "length": "Single",
+        "format": "Non-fiction",
+        "length": "Volume",
         "category": "Advice",
         "name": "The Subtle art of not giving a fuck",
         "status": "Finished",
@@ -571,7 +571,7 @@
     },
     {
         "format": "Comic",
-        "length": "Single",
+        "length": "Volume",
         "category": "",
         "name": "Mooncakes by Suzanne Walker",
         "status": "Finished",
@@ -642,7 +642,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "The Weakest Tamer Began a Journey to Pick Up Trash ",
@@ -652,7 +652,7 @@
     },
     {
         "format": "Manga",
-        "length": "Single",
+        "length": "Volume",
         "category": "Yuri",
         "name": "Beauty and the Beast girl",
         "status": "Finished",
@@ -696,7 +696,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "I Was Reincarnated as the 7th Prince",
@@ -822,7 +822,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "Mikagura school suite",
@@ -831,7 +831,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "Mondaiji",
@@ -868,7 +868,7 @@
     },
     {
         "format": "Game",
-        "length": "Single",
+        "length": "Volume",
         "category": "",
         "name": "planetarian",
         "status": "Finished",
@@ -912,7 +912,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "The Devil is a part timer",
@@ -930,7 +930,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "Kuma kuma kuma bear",
@@ -975,7 +975,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "Violet Evergarden",
@@ -1146,7 +1146,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "Yuri",
         "name": "I'm in Love with the Villainess",
@@ -1164,7 +1164,7 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "Shut-in vampire princess",
@@ -1173,8 +1173,8 @@
         "shelf": ""
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "The Melancholy of Haruhi Suzumiya",
         "status": "Finished",
@@ -1184,8 +1184,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "Funeral Songs for Dying Girls",
         "status": "Finished",
@@ -1196,7 +1196,7 @@
     },
     {
         "format": "Comic",
-        "length": "Single",
+        "length": "Volume",
         "category": "",
         "name": "The Prince and The Dressmaker",
         "status": "Finished",
@@ -1206,8 +1206,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "Cho tới khi em yêu anh thêm lần nữa",
         "status": "Finished",
@@ -1217,8 +1217,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "Le petit prince",
         "status": "Finished",
@@ -1229,7 +1229,7 @@
     },
     {
         "format": "Game",
-        "length": "Single",
+        "length": "Volume",
         "category": "",
         "name": "OMORI",
         "status": "Finished",
@@ -1240,7 +1240,7 @@
     },
     {
         "format": "Game",
-        "length": "Single",
+        "length": "Volume",
         "category": "",
         "name": "Project Wingman",
         "status": "Finished",
@@ -1250,7 +1250,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "The Journey of Elaina (Vietnamese)",
@@ -1339,7 +1339,7 @@
         "shelf": "Drop"
     },
     {
-        "format": "Book",
+        "format": "Non-fiction",
         "length": "Series",
         "category": "",
         "name": "Things explainer",
@@ -1350,7 +1350,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Book",
+        "format": "Non-fiction",
         "length": "Series",
         "category": "",
         "name": "What if?",
@@ -1377,7 +1377,9 @@
         "category": "",
         "name": "Frozen",
         "status": "Finished",
-        "activity": {},
+        "activity": {
+            "2026-01-01": "V 2"
+        },
         "shelf": "Drop"
     },
     {
@@ -1418,7 +1420,7 @@
         "name": "Oppenheimer",
         "status": "Finished",
         "activity": {
-            "2026-01-01": "V 1"
+            "2024-03-01": "V 1"
         },
         "shelf": "Done"
     },
@@ -1489,8 +1491,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
-        "length": "Single",
+        "format": "Story",
+        "length": "Volume",
         "category": "",
         "name": "Travelling Cat Chronicles",
         "status": "Finished",
@@ -1500,8 +1502,8 @@
         "shelf": "Done"
     },
     {
-        "format": "Book",
-        "length": "Single",
+        "format": "Non-fiction",
+        "length": "Volume",
         "category": "",
         "name": "A Student's Guide to Vectors and Tensors",
         "status": "Finished",
@@ -1551,12 +1553,23 @@
         "shelf": "Done"
     },
     {
-        "format": "Novel",
+        "format": "Story",
         "length": "Series",
         "category": "",
         "name": "5 Centimeters per Second + Children Who Chase Lost Voices",
         "status": "Finished",
         "activity": {},
         "shelf": "Active"
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "Elio",
+        "status": "Finished",
+        "shelf": "Done",
+        "activity": {
+            "2026-03-14": "V1"
+        }
     }
 ]

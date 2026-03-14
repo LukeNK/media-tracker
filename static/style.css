@@ -156,7 +156,7 @@ button {
     margin-top: 0.25rem;
 }
 
-#warning {
+#warning, #warning-2 {
     border-left: 2px solid var(--color-red);
     margin-top: 1rem !important;
     padding: 0.5rem;
