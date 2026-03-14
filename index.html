@@ -19,67 +19,71 @@
         <h2>Database</h2>
         <ul id="database"></ul>
 
-        <h2>Add</h2>
-        <form id="add">
-            <label for="format">Format</label>
-            <select name="format" id="format">
-                <option value="Anime">Anime</option>
-                <option value="Manga">Manga</option>
-                <option value="Novel">Novel</option>
-                <option value="Film">Film</option>
-            </select>
 
-            <label for="length">Length</label>
-            <select name="length" id="length">
-                <option value="Short">Short</option>
-                <option value="Single">Single-session</option>
-                <option value="Volume">Single-volume</option>
-                <option value="Series">Series</option>
-            </select>
+        <div id="serverOnly">
+            <hr>
+            <form id="add">
+                <h2>Add</h2>
+                <label for="format">Format</label>
+                <select name="format" id="format">
+                    <option value="Anime">Anime</option>
+                    <option value="Manga">Manga</option>
+                    <option value="Novel">Novel</option>
+                    <option value="Film">Film</option>
+                </select>
 
-            <label for="category">Category</label>
-            <input type="text" name="category" id="category">
+                <label for="length">Length</label>
+                <select name="length" id="length">
+                    <option value="Short">Short</option>
+                    <option value="Single">Single-session</option>
+                    <option value="Volume">Single-volume</option>
+                    <option value="Series">Series</option>
+                </select>
 
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" placeholder="Name">
+                <label for="category">Category</label>
+                <input type="text" name="category" id="category">
 
-            <label for="status">Status</label>
-            <select name="status" id="status">
-                <option value="On-going">On-going</option>
-                <option value="Finished">Finished</option>
-            </select>
-            <details>
-                <summary>The current status of the media</summary>
-                <p>"Finished" means that the media as been completed and there is no expected continuation.</p>
-            </details>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name">
 
-            <label for="shelf">Shelf</label>
-            <select name="shelf" id="shelf">
-                <option value="Active">Active</option>
-                <option value="Completed">Completed</option>
-                <option value="Dropped">Dropped</option>
-            </select>
-            <details>
-                <summary>Your current status with the media</summary>
-                <p>
-                    Active: you are actively following and getting the newest version
-                    <br>Done: you have reached the (foreseeable) ending
-                    <br>Drop: you have stop following it even though you haven't reached the end
-                    <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
-                </p>
-            </details>
+                <label for="status">Status</label>
+                <select name="status" id="status">
+                    <option value="On-going">On-going</option>
+                    <option value="Finished">Finished</option>
+                </select>
+                <details>
+                    <summary>The current status of the media</summary>
+                    <p>"Finished" means that the media as been completed and there is no expected continuation.</p>
+                </details>
 
-            <p id="warning"></p>
-            <button type="submit">Add</button>
-        </form>
+                <label for="shelf">Shelf</label>
+                <select name="shelf" id="shelf">
+                    <option value="Active">Active</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Dropped">Dropped</option>
+                </select>
+                <details>
+                    <summary>Your current status with the media</summary>
+                    <p>
+                        Active: you are actively following and getting the newest version
+                        <br>Done: you have reached the (foreseeable) ending
+                        <br>Drop: you have stop following it even though you haven't reached the end
+                        <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
+                    </p>
+                </details>
 
-        <h2>Activity log</h2>
-        <form id="update">
-            <label for=""><i>Click on an entry to log an activity</i></label>
-            <input type="text" id="activity">
+                <p id="warning"></p>
+                <button type="submit">Add</button>
+            </form>
 
-            <button type="submit">Update</button>
-        </form>
+            <form id="update">
+                <h2>Activity log</h2>
+                <label for=""><i>Click on an entry to log an activity</i></label>
+                <input type="text" id="activity">
+
+                <button type="submit">Update</button>
+            </form>
+        </div>
     </main>
     <footer>
         <img src="https://lukenk.github.io/print/letterhead.svg" style="height: inherit;">
@@ -176,8 +180,7 @@ function sendToServer() {
     // Add form for submission
     let ping = await fetch('./api/ping');
     if (!ping.ok) return;
-    document.getElementById('add').style.display = 'block';
-    updateForm.style.display = 'block';
+    document.getElementById('serverOnly').style.display = 'flex';
 })();
 
 document.getElementById('add').addEventListener('submit', function(e) {

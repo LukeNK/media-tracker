@@ -130,8 +130,18 @@ button {
     justify-content: space-between;
 }
 
-#add {
+#serverOnly {
     display: none;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    hr {
+        flex: 1 1 100%;
+    }
+}
+#add, #update {
+    flex: 1 1 0;
+    min-width: 15rem;
 }
 
 #add p {
@@ -142,10 +152,6 @@ button {
     border-left: 2px solid var(--color-red);
     margin-top: 1rem !important;
     padding: 0.5rem;
-}
-
-#update {
-    display: none;
 }
 
 footer {
