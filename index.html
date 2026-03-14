@@ -118,7 +118,8 @@ document.getElementById('timePeriod').innerHTML =
             progressPercent = Math.max(progressPercent, 0);
             itemProgress.style.width = `${progressPercent * 100}%`;
 
-            activity.appendChild(itemProgress);
+            // Prepend activity so that the latest does not get to the front
+            activity.prepend(itemProgress);
             latestActivity = key;
 
             // fill the timeline
