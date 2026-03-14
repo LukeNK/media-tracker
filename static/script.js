@@ -68,7 +68,7 @@ function sendToServer() {
             timelineBar.appendChild(itemProgress.cloneNode());
         }
         if (latestActivity)
-            activity.innerHTML += `<p>${entry.activity[latestActivity]} (${latestActivity})</p>`;
+            activity.innerHTML += `<p><i>${entry.activity[latestActivity]}</i><code>${latestActivity}</code></p>`;
         if (entry.shelf) activity.classList.add(entry.shelf);
 
         // Event to log activity
