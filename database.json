@@ -1355,7 +1355,9 @@
         "category": "",
         "name": "What if?",
         "status": "Finished",
-        "activity": {},
+        "activity": {
+            "2026-01-01": "V 2 (not V 1)"
+        },
         "shelf": "Drop"
     },
     {
@@ -1384,7 +1386,9 @@
         "category": "",
         "name": "Avatar",
         "status": "Finished",
-        "activity": {},
+        "activity": {
+            "2026-01-01": "V 1"
+        },
         "shelf": "Drop"
     },
     {
@@ -1424,7 +1428,9 @@
         "category": "",
         "name": "FNAF movie",
         "status": "On-going",
-        "activity": {},
+        "activity": {
+            "2023-10-28": "V 1"
+        },
         "shelf": ""
     },
     {
