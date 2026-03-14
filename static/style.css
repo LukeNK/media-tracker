@@ -5,9 +5,9 @@
 }
 
 body{
-    --color-fg: #04080fff;
-    --color-bg: #f0f0f0;
-    --color-bg-theme: #bbd1eaff;
+    --color-fg: #f0f0f0;
+    --color-bg: #1e1e1e;
+    --color-bg-theme: #04080f;
     --color-bg-alt: #dae3e5ff;
     --color-theme: #507dbcff;
 
@@ -102,6 +102,38 @@ li {
 
 #add {
     display: none;
+    margin: 0 auto;
+    max-width: 25rem;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: var(--color-theme);
+    color: var(--color-fg);
+}
+
+#add p {
+    margin-top: 0.25rem;
+}
+
+#warning {
+    border-left: 2px solid var(--color-red);
+    margin-top: 1rem !important;
+    padding: 0.5rem;
+}
+
+button {
+    cursor: pointer;
 }
 
 footer {
@@ -110,6 +142,10 @@ footer {
     align-items: center;
     height: 5rem;
     margin: 2rem;
+}
+
+footer img {
+    filter: invert(100%);
 }
 
 footer a {

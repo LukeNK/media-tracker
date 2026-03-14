@@ -12,15 +12,16 @@
     <main>
         <h1>Media tracker</h1>
 
+        <h2>Activities</h2>
+        <div id="timeline" class="activity"></div>
+        <p id="timePeriod"></p>
+
         <h2>Database</h2>
         <ul id="database"></ul>
 
-        <h2>Activities</h2>
-        <div id="timeline" class="activity"></div>
-
-        <div id="add">
-            <h2>Add</h2>
-
+        <h2>Add</h2>
+        <form id="add">
+            <label for="format">Format</label>
             <select name="format" id="format">
                 <option value="Anime">Anime</option>
                 <option value="Manga">Manga</option>
@@ -28,6 +29,7 @@
                 <option value="Film">Film</option>
             </select>
 
+            <label for="length">Length</label>
             <select name="length" id="length">
                 <option value="Short">Short</option>
                 <option value="Single">Single-session</option>
@@ -35,22 +37,41 @@
                 <option value="Series">Series</option>
             </select>
 
+            <label for="category">Category</label>
             <input type="text" name="category" id="category">
 
+            <label for="name">Name</label>
             <input type="text" name="name" id="name" placeholder="Name">
 
+            <label for="status">Status</label>
             <select name="status" id="status">
                 <option value="On-going">On-going</option>
                 <option value="Finished">Finished</option>
             </select>
+            <details>
+                <summary>The current status of the media</summary>
+                <p>"Finished" means that the media as been completed and there is no expected continuation.</p>
+            </details>
 
+            <label for="shelf">Shelf</label>
             <select name="shelf" id="shelf">
                 <option value="Active">Active</option>
                 <option value="Completed">Completed</option>
                 <option value="Dropped">Dropped</option>
             </select>
-            <button onclick="submit()">Add</button>
-        </div>
+            <details>
+                <summary>Your current status with the media</summary>
+                <p>
+                    Active: you are actively following and getting the newest version
+                    <br>Done: you have reached the (foreseeable) ending
+                    <br>Drop: you have stop following it even though you haven't reached the end
+                    <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
+                </p>
+            </details>
+
+            <p id="warning"></p>
+            <button type="submit">Add</button>
+        </form>
     </main>
     <footer>
         <img src="https://lukenk.github.io/print/letterhead.svg" style="height: inherit;">
@@ -67,6 +88,9 @@ let database = {};
 
 const tableBody = document.getElementById('database');
 const timelineBar = document.getElementById('timeline');
+
+document.getElementById('timePeriod').textContent =
+    `Timeline: ${timeline.start.toDateString()} - ${timeline.end.toDateString()}`;
 
 (async () => {
     // Download database
@@ -116,7 +140,9 @@ const timelineBar = document.getElementById('timeline');
     form.style.display = 'block';
 })();
 
-function submit() {
+document.getElementById('add').addEventListener('submit', function(e) {
+    e.preventDefault();
+
     // Add an entry to the database variable
     const newEntry = {
         format: document.getElementById('format').value,
@@ -149,6 +175,22 @@ function submit() {
         console.error('Error:', error);
         alert('An error occurred while adding the entry. Please try again.');
     });
-}
+});
+
+document.getElementById('name').addEventListener('input', function() {
+    const warning = document.getElementById('warning');
+    // Find matching entries in the database
+    const matches = database.filter(entry => entry.name.toLowerCase().includes(this.value.toLowerCase()));
+    if (matches.length > 5) {
+        warning.textContent = `Warning: ${matches.length} similar entries found in the database.`;
+    } else if (matches.length > 0) {
+        warning.innerHTML = `Possible matches: `
+        for (const match of matches) {
+            warning.innerHTML += `<br>- ${match.name} (${match.format}, ${match.category})`;
+        }
+    } else {
+        warning.textContent = '';
+    }
+});
 </script>
 </html>
