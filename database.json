@@ -387,7 +387,7 @@
         "format": "Manga",
         "length": "Collection",
         "category": "Yuri",
-        "name": "https://fvrl.bibliocommons.com/v2/list/display/1927159699/2143612329",
+        "name": "<a href='https://fvrl.bibliocommons.com/v2/list/display/1927159699/2143612329'>FVRL list</a>",
         "status": "On-going",
         "activity": {},
         "shelf": ""
@@ -505,10 +505,10 @@
         "shelf": ""
     },
     {
-        "format": "Story",
+        "format": "Non-fiction",
         "length": "Collection",
         "category": "Laws",
-        "name": "UoT Tribunal decision - https://governingcouncil.utoronto.ca/adfg/page/case-summaries-reasons/university-tribunal-decision",
+        "name": "<a href='https://governingcouncil.utoronto.ca/adfg/page/case-summaries-reasons/university-tribunal-decision'>UoT Tribunal decisions</a>",
         "status": "On-going",
         "activity": {},
         "shelf": ""
