@@ -14,7 +14,7 @@ body{
 
     --color-dark-green: #4e7d4e;
     --color-blue: rgb(18, 43, 68);
-    --color-red: #510d0a;
+    --color-red: #ff8a8a;
 
     padding: 0;
     margin: 0;
@@ -114,14 +114,14 @@ button {
         position: absolute;
     }
 
-    &.ok span {
+    &.Active span {
         background-color: var(--color-blue);
     }
-    &.no span {
-        background-color: var(--color-red);
+    &.Drop span {
+        border-right: 1rem solid var(--color-red);
     }
-    &.er span {
-        border-width: 1rem;
+    &.Done span {
+        border-right: 1rem solid var(--color-green);
     }
 
     p {

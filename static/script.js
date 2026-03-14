@@ -37,7 +37,6 @@ function sendToServer() {
     // Download database
     let data = await fetch('./database.json');
     database = await data.json();
-    console.log(database);
 
     // Populate table
     for (const id in database) {
@@ -70,10 +69,7 @@ function sendToServer() {
         }
         if (latestActivity)
             activity.innerHTML += `<p>${entry.activity[latestActivity]} (${latestActivity})</p>`;
-
-        if (entry.shelf == 'Active') activity.classList.add('ok');
-        else if (entry.shelf == 'Dropped') activity.classList.add('no');
-        else if (entry.shelf == 'Done') activity.classList.add('er');
+        if (entry.shelf) activity.classList.add(entry.shelf);
 
         // Event to log activity
         info.addEventListener('click', function() {
