@@ -8,7 +8,6 @@ body{
     --color-fg: #f0f0f0;
     --color-bg: #1e1e1e;
     --color-bg-theme: #04080f;
-    --color-bg-alt: #dae3e5ff;
     --color-theme: #507dbcff;
 
     --color-green: #7ef383;
@@ -55,9 +54,6 @@ li {
         flex: 2 1 0;
         min-width: 20rem;
         display: flex;
-    }
-    .info {
-        display: flex;
         flex-wrap: wrap;
         column-gap: 0.5rem;
 
@@ -69,6 +65,7 @@ li {
         }
     }
 }
+
 
 form {
     margin: 0 auto;
@@ -102,7 +99,7 @@ button {
 
     span {
         height: 1rem;
-        border-right: 2px solid var(--color-theme);
+        border-right: 3px solid var(--color-theme);
         position: absolute;
     }
 

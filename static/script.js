@@ -49,7 +49,7 @@ function sendToServer() {
         info.classList.add('info');
         info.innerHTML = `
             <span class="short">${entry.length}</span><span class="long">${entry.category}</span>
-            <span class="short">${entry.status}</span><span class="long">${entry.name}</span>`;
+            <span class="short">${entry.format}</span><span class="long">${entry.name}</span>`;
 
         activity.classList.add('activity');
         let latestActivity = '';
