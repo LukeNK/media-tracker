@@ -89,8 +89,9 @@ let database = {};
 const tableBody = document.getElementById('database');
 const timelineBar = document.getElementById('timeline');
 
-document.getElementById('timePeriod').textContent =
-    `Timeline: ${timeline.start.toDateString()} - ${timeline.end.toDateString()}`;
+document.getElementById('timePeriod').innerHTML =
+    `<span>${timeline.start.toDateString()}</span>
+    <span>${timeline.end.toDateString()}</span>`;
 
 (async () => {
     // Download database
