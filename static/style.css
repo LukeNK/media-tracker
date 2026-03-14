@@ -101,7 +101,7 @@ input::placeholder {
     color: var(--color-fg);
 }
 
-button {
+select, summary, button {
     cursor: pointer;
 }
 
