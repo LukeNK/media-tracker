@@ -91,6 +91,29 @@ function sendToServer() {
     document.getElementById('serverOnly').style.display = 'flex';
 })();
 
+// Filter
+document.getElementById('filter-work').addEventListener('input', filterDatabase);
+document.getElementById('filter-medium').addEventListener('input', filterDatabase);
+function filterDatabase() {
+    const workFilter = document.getElementById('filter-work').value.toLowerCase();
+    const mediumFilter = document.getElementById('filter-medium').value.toLowerCase();
+
+    tableBody.querySelectorAll('#database > li').forEach(item => {
+        let matchedMedium = false, matchedWork = false;
+        item.querySelectorAll('.info > span.short').forEach(span => {
+            const text = span.textContent.toLowerCase();
+            if (text.includes(mediumFilter)) matchedMedium = true;
+        });
+        item.querySelectorAll('.info > span.long').forEach(span => {
+            const text = span.textContent.toLowerCase();
+            if (text.includes(workFilter)) matchedWork = true;
+        });
+        if (matchedMedium && matchedWork) item.style.display = 'flex';
+        else item.style.display = 'none';
+    });
+};
+
+// Form for communicating with the server
 document.getElementById('add').addEventListener('submit', function(e) {
     e.preventDefault();
 

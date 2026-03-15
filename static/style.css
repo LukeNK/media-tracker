@@ -142,6 +142,17 @@ select, summary, button {
     justify-content: space-between;
 }
 
+#filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+
+    label {
+        width: 20rem;
+    }
+}
+
 #serverOnly {
     display: none;
     flex-wrap: wrap;
