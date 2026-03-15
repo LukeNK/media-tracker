@@ -82,6 +82,9 @@ function sendToServer() {
         item.appendChild(activity);
         tableBody.appendChild(item);
     }
+
+    // Run to apply filters
+    filterDatabase();
 })();
 
 (async () => {
