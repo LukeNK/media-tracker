@@ -133,10 +133,8 @@ document.getElementById('add').addEventListener('submit', function(e) {
         category: document.getElementById('category').value,
         name: document.getElementById('name').value,
         status: document.getElementById('status').value,
+        activity: {},
         shelf: "",
-        activity: {
-            [new Date().toISOString().split('T')[0]]: 'Added to database',
-        },
     };
     database.push(newEntry);
 
@@ -150,12 +148,12 @@ document.getElementById('name').addEventListener('input', function() {
     if (matches.length > 5) {
         warning.textContent = `Warning: ${matches.length} similar entries found in the database.`;
     } else if (matches.length > 0) {
-        warning.innerHTML = `Possible matches: `
+        warning.innerHTML = `Possible matches: `;
         for (const match of matches) {
             warning.innerHTML += `<br>- ${match.name} (${match.format}, ${match.category})`;
         }
     } else {
-        warning.textContent = '';
+        warning.textContent = 'No matches found in the database.';
     }
 });
 

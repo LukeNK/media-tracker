@@ -1130,8 +1130,8 @@
     {
         "format": "Anime",
         "length": "Series",
-        "category": "",
-        "name": "Asobi asobase (funny);",
+        "category": "Funny",
+        "name": "Asobi asobase",
         "status": "Finished",
         "activity": {},
         "shelf": ""
@@ -1567,9 +1567,18 @@
         "category": "",
         "name": "Elio",
         "status": "Finished",
-        "shelf": "Done",
         "activity": {
-            "2026-03-14": "V1"
-        }
+            "2026-03-14": "V 1"
+        },
+        "shelf": "Done"
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Gender",
+        "name": "Kaisha to Shiseikatsu",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
     }
 ]
