@@ -1580,5 +1580,32 @@
         "status": "On-going",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Single",
+        "category": "",
+        "name": "A Miku Who Can't Sing",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Single",
+        "category": "Religious",
+        "name": "My Last Day",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Religious",
+        "name": "Saint Young Men",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
     }
 ]
