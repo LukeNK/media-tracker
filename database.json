@@ -385,15 +385,6 @@
     },
     {
         "format": "Manga",
-        "length": "Collection",
-        "category": "Yuri",
-        "name": "<a href='https://fvrl.bibliocommons.com/v2/list/display/1927159699/2143612329'>FVRL list</a>",
-        "status": "On-going",
-        "activity": {},
-        "shelf": ""
-    },
-    {
-        "format": "Manga",
         "length": "Series",
         "category": "Gender",
         "name": "I Wanna Be Your Girl ",
@@ -1604,6 +1595,132 @@
         "length": "Series",
         "category": "Religious",
         "name": "Saint Young Men",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "5 Seconds Before a Witch Falls in Love",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "The Whole of Humanity Has Gone Yuri Except for Me",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "How Do We Relationship?",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Doughnuts Under a Crescent Moon",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Strawberry Fields Once Again",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Single",
+        "category": "Yuri",
+        "name": "Kase-san and Morning Glories",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Kase-san",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "A Witch's Love at the End of the World",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Goodbye, My Rose Garden",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Syrup Shakaijin Yuri Anthology",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Even Though We're Adults",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "The Girl I Want Is So Handsome!",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Still Sick",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Days of Love at Seagull Villa",
         "status": "Finished",
         "activity": {},
         "shelf": ""
