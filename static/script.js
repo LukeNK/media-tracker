@@ -103,6 +103,8 @@ function filterDatabase() {
     const mediumFilter = document.getElementById('filter-medium').value.toLowerCase();
     const shelfFilter = document.getElementById('filter-shelf').checked;
 
+    let count = 0;
+
     tableBody.querySelectorAll('#database > li').forEach(item => {
         let matchedMedium = false, matchedWork = false, matchedShelf = false;
         item.querySelectorAll('.info > span.short').forEach(span => {
@@ -118,11 +120,14 @@ function filterDatabase() {
                 matchedShelf = true;
         } else matchedShelf = true;
 
-        if (matchedMedium && matchedWork && matchedShelf)
+        if (matchedMedium && matchedWork && matchedShelf) {
             item.style.display = 'flex';
-        else
+            count++;
+        } else
             item.style.display = 'none';
     });
+
+    document.getElementById('filter-count').textContent = `${count} entries found.`;
 };
 
 // Form for communicating with the server
