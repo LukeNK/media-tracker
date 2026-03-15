@@ -1724,5 +1724,23 @@
         "status": "Finished",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "Gender",
+        "name": "Kawaihara-senpai Loves Cute (Saotome-kun)",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Single",
+        "category": "",
+        "name": "<a href=\"https://www.youtube.com/watch?v=2Twq0EWKPQI\">Umamusume First-aniversary</a>",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
     }
 ]
