@@ -23,6 +23,7 @@
             <summary>How to read the database</summary>
             <p>If the left border is green, that means the media is completed (fully released). Note that this information is not in real-time.</p>
             <p>If the activity log is a green square, that means that we are done with the media; if it is red, that means we dropped it; if it is blue, that means it is active.</p>
+            <p class="warning">Activities with unknown date will be set to 2026-01-01.</p>
         </details>
 
         <h2>Filter</h2>
@@ -34,6 +35,10 @@
             <div>
                 <label for="filter-work">Filter on the work</label>
                 <input type="text" id="filter-work" placeholder="Filter by work">
+            </div>
+            <div>
+                <label for="filter-shelf">Active</label>
+                <input type="checkbox" name="filter-shelf" id="filter-shelf">
             </div>
         </div>
 

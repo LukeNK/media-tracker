@@ -1,5 +1,5 @@
 let timeline = {
-    start: new Date('2026-01-01'),
+    start: new Date(new Date().setFullYear(new Date().getFullYear() - 1)),
     end: new Date(),
 };
 let database = {};
@@ -94,12 +94,14 @@ function sendToServer() {
 // Filter
 document.getElementById('filter-work').addEventListener('input', filterDatabase);
 document.getElementById('filter-medium').addEventListener('input', filterDatabase);
+document.getElementById('filter-shelf').addEventListener('change', filterDatabase);
 function filterDatabase() {
     const workFilter = document.getElementById('filter-work').value.toLowerCase();
     const mediumFilter = document.getElementById('filter-medium').value.toLowerCase();
+    const shelfFilter = document.getElementById('filter-shelf').checked;
 
     tableBody.querySelectorAll('#database > li').forEach(item => {
-        let matchedMedium = false, matchedWork = false;
+        let matchedMedium = false, matchedWork = false, matchedShelf = false;
         item.querySelectorAll('.info > span.short').forEach(span => {
             const text = span.textContent.toLowerCase();
             if (text.includes(mediumFilter)) matchedMedium = true;
@@ -108,8 +110,15 @@ function filterDatabase() {
             const text = span.textContent.toLowerCase();
             if (text.includes(workFilter)) matchedWork = true;
         });
-        if (matchedMedium && matchedWork) item.style.display = 'flex';
-        else item.style.display = 'none';
+        if (shelfFilter) {
+            if (item.querySelector('.activity').classList.contains('Active'))
+                matchedShelf = true;
+        } else matchedShelf = true;
+
+        if (matchedMedium && matchedWork && matchedShelf)
+            item.style.display = 'flex';
+        else
+            item.style.display = 'none';
     });
 };
 
