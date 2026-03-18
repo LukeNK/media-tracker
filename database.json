@@ -1739,7 +1739,25 @@
         "length": "Single",
         "category": "",
         "name": "<a href=\"https://www.youtube.com/watch?v=2Twq0EWKPQI\">Umamusume First-aniversary</a>",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Romance",
+        "name": "A Cool Girl and a 12cm Promise",
         "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Series",
+        "category": "",
+        "name": "Kingsman",
+        "status": "Finished",
         "activity": {},
         "shelf": ""
     }
