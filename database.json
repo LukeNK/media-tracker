@@ -1771,7 +1771,7 @@
         "shelf": ""
     },
     {
-        "format": "Anime",
+        "format": "Game",
         "length": "Series",
         "category": "",
         "name": "ATRI -My Dear Moments-",
@@ -1784,6 +1784,15 @@
         "length": "Volume",
         "category": "",
         "name": "The Liar Princess and the Blind Prince",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "Penguins of Madagascar",
         "status": "Finished",
         "activity": {},
         "shelf": ""
