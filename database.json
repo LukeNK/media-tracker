@@ -1798,5 +1798,23 @@
         "status": "Finished",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Non-fiction",
+        "length": "Series",
+        "category": "",
+        "name": "The Feynman Lectures on Physics",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Non-fiction",
+        "length": "Volume",
+        "category": "",
+        "name": "The physical world : an inspirational tour of fundamental physics",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
     }
 ]
