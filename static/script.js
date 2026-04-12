@@ -22,14 +22,14 @@ function sendToServer() {
         body: JSON.stringify(database),
     }).then(response => {
         if (response.ok) {
-            alert('Entry added successfully!');
+            alert('Database updated successfully!');
             location.reload();
         } else {
-            alert('Failed to add entry. Please try again.');
+            alert('Failed to update database. Please try again.');
         }
     }).catch(error => {
         console.error('Error:', error);
-        alert('An error occurred while adding the entry. Please try again.');
+        alert('An error occurred while updating the database. Please try again.');
     });
 }
 
