@@ -1498,8 +1498,10 @@
         "category": "",
         "name": "A Student's Guide to Vectors and Tensors",
         "status": "Finished",
-        "activity": {},
-        "shelf": "Active"
+        "activity": {
+            "2026-04-12": "P 117"
+        },
+        "shelf": "Drop"
     },
     {
         "format": "Movie",
