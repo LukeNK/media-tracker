@@ -18,8 +18,10 @@
         "category": "",
         "name": "Hatsune Miku: Acute by Kurousa-P",
         "status": "Finished",
-        "activity": {},
-        "shelf": "Active"
+        "activity": {
+            "2026-04-12": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Manga",
@@ -1816,5 +1818,32 @@
         "status": "Finished",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Non-fiction",
+        "length": "Volume",
+        "category": "",
+        "name": "Feynman's Tips on Physics",
+        "status": "Finished",
+        "activity": {},
+        "shelf": "Active"
+    },
+    {
+        "format": "Non-fiction",
+        "length": "Volume",
+        "category": "Physics",
+        "name": "Six Not-so-easy Pieces",
+        "status": "Finished",
+        "activity": {},
+        "shelf": "Active"
+    },
+    {
+        "format": "Non-fiction",
+        "length": "Volume",
+        "category": "",
+        "name": "The Quotable Feynman",
+        "status": "Finished",
+        "activity": {},
+        "shelf": "Active"
     }
 ]
