@@ -1874,5 +1874,23 @@
         "status": "Finished",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "Miss Kobayashi's Dragon Maid",
+        "name": "",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "",
+        "name": "Miss Kobayashi's Dragon Maid",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
     }
 ]
