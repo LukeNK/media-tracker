@@ -1553,8 +1553,10 @@
         "category": "",
         "name": "5 Centimeters per Second + Children Who Chase Lost Voices",
         "status": "Finished",
-        "activity": {},
-        "shelf": "Active"
+        "activity": {
+            "2026-04-18": "P 99"
+        },
+        "shelf": "Drop"
     },
     {
         "format": "Film",
