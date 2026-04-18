@@ -1744,8 +1744,10 @@
         "category": "",
         "name": "<a href=\"https://www.youtube.com/watch?v=2Twq0EWKPQI\">Umamusume First-aniversary</a>",
         "status": "Finished",
-        "activity": {},
-        "shelf": ""
+        "activity": {
+            "2026-04-18": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Manga",
@@ -1845,5 +1847,32 @@
         "status": "Finished",
         "activity": {},
         "shelf": "Active"
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "Science",
+        "name": "The Challenge (2023 film)",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Lycoris Recoil",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Non-fiction",
+        "length": "Volume",
+        "category": "",
+        "name": "Eats, Shoots & Leaves",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
     }
 ]
