@@ -1591,8 +1591,10 @@
         "category": "Religious",
         "name": "My Last Day",
         "status": "Finished",
-        "activity": {},
-        "shelf": ""
+        "activity": {
+            "2026-04-18": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Manga",
