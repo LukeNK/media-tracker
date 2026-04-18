@@ -1892,5 +1892,16 @@
         "status": "On-going",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Game",
+        "length": "Volume",
+        "category": "LGBT",
+        "name": "NOISZ STΔRLIVHT: 2ECONDS TO STΔRLIVHT",
+        "status": "Finished",
+        "activity": {
+            "2025-09-14": "Both games"
+        },
+        "shelf": "Done"
     }
 ]
