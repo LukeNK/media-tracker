@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import { exec } from 'child_process';
 import fs from 'fs';
 
 const app = express();
@@ -20,6 +21,12 @@ app.get('/database.json', (req, res) => {
 // API routes for the server
 app.get('/api/ping', (req, res) => {
     res.send('pong');
+});
+
+app.get('/api/sync', (req, res) => {
+    exec('git pull && git add database.json && git commit -m "Sync database" && git push', (error, stdout, stderr) => {
+        res.send(stdout || stderr);
+    });
 });
 
 app.post('/api/add', (req, res) => {
