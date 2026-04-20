@@ -122,7 +122,12 @@
                 <button type="submit">Update</button>
 
                 <h2>Sync database</h2>
-                <pre id="sync-warning" class="warning">git pull && git commit && git push</pre>
+                <details>
+                    <summary>Note with Git</summary>
+                    <p>This will run <code>git pull</code>, so you may need to resolve any conflicts.</p>
+                    <p>Because this will attempt to run <code>git commit</code>, if there is nothing new in the database, the command will fail.</p>
+                </details>
+                <pre id="sync-warning" class="warning">git pull && git add database.json && git commit -m "Sync database" && git push</pre>
                 <button id="sync">Sync database</button>
             </form>
         </div>
