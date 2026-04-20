@@ -1849,8 +1849,10 @@
         "category": "",
         "name": "The Quotable Feynman",
         "status": "Finished",
-        "activity": {},
-        "shelf": "Active"
+        "activity": {
+            "2026-04-19": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Film",
@@ -1907,5 +1909,23 @@
             "2025-09-14": "Both games"
         },
         "shelf": "Done"
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "Top Gun: Maverick",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Story",
+        "length": "Series",
+        "category": "",
+        "name": "Secrets of the Silent Witch",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
     }
 ]
