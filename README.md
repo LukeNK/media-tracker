@@ -13,4 +13,4 @@ If the response is possitive, the webpage will allow you to edit the database it
 
 In addition to the API, the server will also serve the `index.html` file, static files, and the `database.json`.
 
-With this set up, the GitHub Page's version will be fully statics, while you can put a local server at home (or use Tailscale) to update the database. You can then periodically run `git push` to update the "public" version of your database.
+With this set up, the GitHub Page's version will be fully static, while you can put a local server at home (or use Tailscale) to update the database. By pressing the "sync database" button, you effectively run git commands to push the local changes to GitHub.
