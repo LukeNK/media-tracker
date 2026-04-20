@@ -179,3 +179,21 @@ document.getElementById('update').addEventListener('submit', function(e) {
 
     sendToServer();
 });
+
+document.getElementById('sync').addEventListener('click', function(e) {
+    const warning = document.getElementById('sync-warning');
+    warning.textContent = 'Sync request in progress...';
+
+    fetch('./api/sync').then(response => {
+        if (response.ok) {
+            warning.textContent = 'Sync request ok!';
+        } else {
+            throw new Error('Failed to synchronize database. Please try again.');
+        }
+        return response.text();
+    }).then(text => {
+        warning.innerText += `\n\n${text}`;
+    }).catch(error => {
+        warning.textContent += `\nError: ${error.message}`;
+    });
+});

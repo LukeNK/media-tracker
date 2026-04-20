@@ -100,6 +100,9 @@ input, select, button {
 input::placeholder {
     color: var(--color-fg);
 }
+button {
+    margin: 1rem 0
+}
 
 select, summary, button {
     cursor: pointer;
@@ -169,6 +172,13 @@ select, summary, button {
 
 #add p {
     margin-top: 0.25rem;
+}
+
+#sync {
+    min-width: 100%;
+}
+#sync-warning {
+    overflow-x: auto;
 }
 
 .warning {
