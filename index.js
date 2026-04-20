@@ -4,7 +4,15 @@ import { exec } from 'child_process';
 import fs from 'fs';
 
 const app = express();
+const PORT = 8080;
+
 app.use(bodyParser.json());
+
+// basic server activity logger
+app.use((req, res, next) => {
+    console.log(`[----] ${req.method} ${req.url}`);
+    next();
+});
 
 // Basic routes that should be available without the server
 // These routes will be available as static files in GitHub Pages
@@ -24,17 +32,20 @@ app.get('/api/ping', (req, res) => {
 });
 
 app.get('/api/sync', (req, res) => {
+    console.log(`[CRIT] Database sync requested`);
     exec('git pull && git add database.json && git commit -m "Sync database" && git push', (error, stdout, stderr) => {
+        console.log(stdout || stderr);
         res.send(stdout || stderr);
     });
 });
 
 app.post('/api/add', (req, res) => {
     // get the request, rewrite to the file
+    console.log(`[CRIT] Database updated`);
     fs.writeFileSync('database.json', JSON.stringify(req.body, null, 4));
     res.send('ok');
 });
 
-app.listen(8080, () => {
-    console.log('Server is running on port 8080');
+app.listen(PORT, () => {
+    console.log(`[----] Server is running on port ${PORT}`);
 });
