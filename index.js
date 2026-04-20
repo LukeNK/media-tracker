@@ -8,12 +8,6 @@ const PORT = 8080;
 
 app.use(bodyParser.json());
 
-// basic server activity logger
-app.use((req, res, next) => {
-    console.log(`[----] ${req.method} ${req.url}`);
-    next();
-});
-
 // Basic routes that should be available without the server
 // These routes will be available as static files in GitHub Pages
 app.use('/static', express.static('static'));
@@ -28,6 +22,7 @@ app.get('/database.json', (req, res) => {
 
 // API routes for the server
 app.get('/api/ping', (req, res) => {
+    console.log(`[----] Client connected: ${req.ip}`);
     res.send('pong');
 });
 
