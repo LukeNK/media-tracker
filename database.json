@@ -1927,5 +1927,34 @@
         "status": "On-going",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "",
+        "name": "Himouto! Umaru-chan",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Story",
+        "length": "Series",
+        "category": "",
+        "name": "Harry Potter",
+        "status": "Finished",
+        "activity": {
+            "2026-01-01": "V 5"
+        },
+        "shelf": "Drop"
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Futaribeya: A Room for Two",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
     }
 ]
