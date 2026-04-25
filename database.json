@@ -1769,7 +1769,7 @@
         "name": "Kingsman",
         "status": "Finished",
         "activity": {},
-        "shelf": ""
+        "shelf": "Active"
     },
     {
         "format": "Anime",
@@ -2016,5 +2016,14 @@
             "2026-04-16": "V 1"
         },
         "shelf": "Done"
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "F1 (The movie)",
+        "status": "Finished",
+        "activity": {},
+        "shelf": "Active"
     }
 ]
