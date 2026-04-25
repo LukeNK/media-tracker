@@ -3,6 +3,7 @@ let timeline = {
     end: new Date(),
 };
 let database = {};
+let syncInProgress = false;
 
 const tableBody = document.getElementById('database'),
     timelineBar = document.getElementById('timeline'),
@@ -181,10 +182,15 @@ document.getElementById('update').addEventListener('submit', function(e) {
 });
 
 document.getElementById('sync').addEventListener('click', function(e) {
-    if (!confirm('This will synchronize the database with the server. Are you sure?')) return;
-
     const warning = document.getElementById('sync-warning');
-    warning.textContent = 'Sync request in progress...';
+
+    if (!syncInProgress) {
+        syncInProgress = true;
+        warning.textContent = 'Click again to start synchronization.';
+        return
+    }
+
+    warning.textContent += '\nSync request in progress...';
 
     fetch('./api/sync').then(response => {
         if (response.ok) {
