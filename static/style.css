@@ -53,8 +53,8 @@ ul {
 li {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    column-gap: 1rem;
+    margin-bottom: 1.5rem;
     padding-left: 1rem;
 
     .info {
