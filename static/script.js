@@ -181,6 +181,8 @@ document.getElementById('update').addEventListener('submit', function(e) {
 });
 
 document.getElementById('sync').addEventListener('click', function(e) {
+    if (!confirm('This will synchronize the database with the server. Are you sure?')) return;
+
     const warning = document.getElementById('sync-warning');
     warning.textContent = 'Sync request in progress...';
 
