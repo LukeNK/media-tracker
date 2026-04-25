@@ -139,7 +139,7 @@ document.getElementById('add').addEventListener('submit', function(e) {
         format: document.getElementById('format').value,
         length: document.getElementById('length').value,
         category: document.getElementById('category').value,
-        name: document.getElementById('name').value,
+        name: document.getElementById('name').value.trim(),
         status: document.getElementById('status').value,
         activity: {},
         shelf: "",
