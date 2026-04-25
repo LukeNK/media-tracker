@@ -2025,5 +2025,81 @@
         "status": "Finished",
         "activity": {},
         "shelf": "Active"
+    },
+    {
+        "format": "Anime",
+        "length": "Volume",
+        "category": "",
+        "name": "Made in Abyss: Marulk's Daily Life",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Series",
+        "category": "",
+        "name": "Formula 1: Drive to Survive",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "",
+        "name": "Ace Attorney",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "",
+        "name": "Kaguya-sama: Love is War",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Citrus",
+        "status": "Finished",
+        "activity": {
+            "2022-02-13": "E 9"
+        },
+        "shelf": "Drop"
+    },
+    {
+        "format": "Manga",
+        "length": "Volume",
+        "category": "",
+        "name": "The Life-changing Manga of Tidying Up",
+        "status": "Finished",
+        "activity": {
+            "2026-04-25": "V 1"
+        },
+        "shelf": "Done"
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Wholesome",
+        "name": "Sweetness & Lightning",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "",
+        "name": "Life Lessons with Uramichi Oniisan",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
     }
 ]
