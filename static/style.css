@@ -64,6 +64,7 @@ li {
         flex-wrap: wrap;
         column-gap: 0.5rem;
         padding-left: 1rem;
+        border-left: 0.25rem solid transparent;
 
         .short {
             width: 20%;
@@ -73,10 +74,10 @@ li {
         }
 
         &.ok {
-            border-left: 0.25rem solid var(--color-green);
+            border-color: var(--color-green);
         }
         &.no {
-            border-left: 0.25rem solid var(--color-bg);
+            border-color: var(--color-bg);
         }
     }
 }
