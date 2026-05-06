@@ -80,6 +80,11 @@ li {
             border-color: var(--color-bg);
         }
     }
+
+    .list {
+        min-width: 100%;
+        display: none;
+    }
 }
 
 form {
@@ -217,6 +222,7 @@ footer a {
     */
     li .activity { order: 1; }
     li .info { order: 2; }
+    li .list { order: 3; }
 }
 
 @media screen and (max-width: 70rem) {

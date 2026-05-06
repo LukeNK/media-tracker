@@ -44,7 +44,9 @@ function sendToServer() {
         const entry = database[id];
         const item = document.createElement('li'),
             info = document.createElement('div'),
-            activity = document.createElement('div');
+            activity = document.createElement('div'),
+            list = document.createElement('div');
+        let activities = '';
 
         info.classList.add('info');
         info.classList.add(entry.status == 'Finished' ? 'ok' : 'no');
@@ -52,7 +54,9 @@ function sendToServer() {
             <span class="short">${entry.length}</span><span class="long">${entry.category}</span>
             <span class="short">${entry.format}</span><span class="long">${entry.name}</span>`;
 
+        // Activity bar, activity list, and timeline
         activity.classList.add('activity');
+        list.classList.add('list');
         let latestActivity = '';
         for (const key in entry.activity) {
             const itemProgress = document.createElement('span');
@@ -63,6 +67,7 @@ function sendToServer() {
             // Prepend activity so that the latest does not get to the front
             activity.prepend(itemProgress);
             latestActivity = key;
+            activities = `<code>${key}</code>: ${entry.activity[key]}<br>${activities}`;
 
             // fill the timeline
             timelineBar.appendChild(itemProgress.cloneNode());
@@ -70,16 +75,26 @@ function sendToServer() {
         if (latestActivity)
             activity.innerHTML += `<p><i>${entry.activity[latestActivity]}</i><code>${latestActivity}</code></p>`;
         if (entry.shelf) activity.classList.add(entry.shelf);
+        if (activities) {
+            activity.addEventListener('click', function() {
+                list.style.display = list.style.display === 'block' ? 'none' : 'block';
+            });
+            list.innerHTML = `${activities}`;
+        }
 
         // Event to log activity
         info.addEventListener('click', function() {
             updateForm.style.display = 'block';
             updateForm.querySelector('label').innerHTML = `Update "${entry.name}"`;
             updateForm.setAttribute('media', id);
+            // We don't scroll into view here because we sometimes need to copy
+            // the name of the media (click to select)
+            // document.getElementById('activity').scrollIntoView();
         });
 
         item.appendChild(info);
         item.appendChild(activity);
+        item.appendChild(list);
         tableBody.appendChild(item);
     }
 
