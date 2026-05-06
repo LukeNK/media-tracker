@@ -8,7 +8,8 @@
         "activity": {
             "2026-02-06": "V 1",
             "2026-02-09": "V 2",
-            "2026-02-19": "V 3"
+            "2026-02-19": "V 3",
+            "2026-04-27": "V 4"
         },
         "shelf": "Active"
     },
@@ -2099,6 +2100,42 @@
         "category": "",
         "name": "Life Lessons with Uramichi Oniisan",
         "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "Two Popes",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Confessions for a Moron",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Story",
+        "length": "Volume",
+        "category": "Lesbian + space",
+        "name": "Atmosphere (Reid, Taylor Jenkin))",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Series",
+        "category": "",
+        "name": "Fantastic Beasts",
+        "status": "Finished",
         "activity": {},
         "shelf": ""
     }
