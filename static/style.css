@@ -71,14 +71,13 @@ li {
         .long {
             width: 75%;
         }
-    }
 
-    &.ok .info {
-        border-left: 0.25rem solid var(--color-green);
-    }
-
-    &.no .info {
-        border-left: 0.25rem solid var(--color-bg);
+        &.ok {
+            border-left: 0.25rem solid var(--color-green);
+        }
+        &.no {
+            border-left: 0.25rem solid var(--color-bg);
+        }
     }
 }
 

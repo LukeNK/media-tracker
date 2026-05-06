@@ -46,9 +46,8 @@ function sendToServer() {
             info = document.createElement('div'),
             activity = document.createElement('div');
 
-        item.classList.add(entry.status == 'Finished' ? 'ok' : 'no');
-
         info.classList.add('info');
+        info.classList.add(entry.status == 'Finished' ? 'ok' : 'no');
         info.innerHTML = `
             <span class="short">${entry.length}</span><span class="long">${entry.category}</span>
             <span class="short">${entry.format}</span><span class="long">${entry.name}</span>`;
