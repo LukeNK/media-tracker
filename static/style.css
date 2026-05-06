@@ -81,6 +81,8 @@ li {
         }
     }
 
+    .activity { cursor: pointer; }
+
     .list {
         min-width: 100%;
         display: none;
