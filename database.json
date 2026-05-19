@@ -31,7 +31,8 @@
         "name": "Wonder Cat Kyuu-chan",
         "status": "On-going",
         "activity": {
-            "2026-02-14": "V 1"
+            "2026-02-14": "V 1",
+            "2026-05-19": "V 3"
         },
         "shelf": "Active"
     },
@@ -1770,7 +1771,7 @@
         "name": "Kingsman",
         "status": "Finished",
         "activity": {},
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Anime",
@@ -1841,7 +1842,9 @@
         "category": "Physics",
         "name": "Six Not-so-easy Pieces",
         "status": "Finished",
-        "activity": {},
+        "activity": {
+            "2026-05-08": "P 63"
+        },
         "shelf": "Active"
     },
     {
@@ -2025,7 +2028,7 @@
         "name": "F1 (The movie)",
         "status": "Finished",
         "activity": {},
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Anime",
@@ -2138,5 +2141,43 @@
         "status": "Finished",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Volume",
+        "category": "",
+        "name": "Adulthood Is a Myth",
+        "status": "Finished",
+        "activity": {},
+        "shelf": "Active"
+    },
+    {
+        "format": "Anime",
+        "length": "Single",
+        "category": "",
+        "name": "Liz and the Blue Bird on Kanopy",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Series",
+        "category": "",
+        "name": "Clannad",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Story",
+        "length": "Single",
+        "category": "Children book + funny",
+        "name": "We Don't Eat Our Classmates",
+        "status": "Finished",
+        "activity": {
+            "2026-05-19": "V 1"
+        },
+        "shelf": "Done"
     }
 ]
