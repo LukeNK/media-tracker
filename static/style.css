@@ -89,11 +89,6 @@ li {
     }
 }
 
-form {
-    margin: 0 auto;
-    max-width: 25rem;
-}
-
 label {
     display: block;
     margin-top: 1rem;
@@ -177,7 +172,9 @@ select, summary, button {
         flex: 1 1 100%;
     }
 }
-#add, #update {
+#serverOnly > div, #serverOnly > form {
+    margin: 0 auto;
+    max-width: 25rem;
     flex: 1 1 0;
     min-width: 15rem;
 }

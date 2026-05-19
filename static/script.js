@@ -197,6 +197,8 @@ document.getElementById('update').addEventListener('submit', function(e) {
 });
 
 document.getElementById('sync').addEventListener('click', function(e) {
+    e.preventDefault();
+
     const warning = document.getElementById('sync-warning');
 
     if (!syncInProgress) {

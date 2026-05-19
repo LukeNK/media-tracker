@@ -92,45 +92,49 @@
                 <button type="submit">Add</button>
             </form>
 
-            <form id="update">
-                <h2>Activity log</h2>
-                <label for=""><i>Click on an entry to log an activity</i></label>
-                <input type="text" id="activity">
-                <details>
-                    <summary>This is the last FINISHED place</summary>
-                    <p>
-                        P: page, E: episode, V: volume, S: season, C: chapter
-                        <br>We need to keep track of this even for completed read just in case there is a new chapter. Entries that has activities but not in any shelf means we are planning to follow it. If it is on the dropped shelf, that means there is no plan to continue.
-                    </p>
-                </details>
+            <div>
+                <form id="update">
+                    <h2>Activity log</h2>
+                    <label for=""><i>Click on an entry to log an activity</i></label>
+                    <input type="text" id="activity">
+                    <details>
+                        <summary>This is the last FINISHED place</summary>
+                        <p>
+                            P: page, E: episode, V: volume, S: season, C: chapter
+                            <br>We need to keep track of this even for completed read just in case there is a new chapter. Entries that has activities but not in any shelf means we are planning to follow it. If it is on the dropped shelf, that means there is no plan to continue.
+                        </p>
+                    </details>
 
-                <label for="shelf">Shelf</label>
-                <select name="shelf" id="shelf">
-                    <option value="">None</option>
-                    <option value="Active">Active</option>
-                    <option value="Done">Done</option>
-                    <option value="Drop">Drop</option>
-                </select>
-                <details>
-                    <summary>Your current status with the media</summary>
-                    <p>
-                        Active: you are actively following and getting the newest version
-                        <br>Done: you have reached the (foreseeable) ending
-                        <br>Drop: you have stop following it even though you haven't reached the end
-                        <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
-                    </p>
-                </details>
-                <button type="submit">Update</button>
+                    <label for="shelf">Shelf</label>
+                    <select name="shelf" id="shelf">
+                        <option value="">None</option>
+                        <option value="Active">Active</option>
+                        <option value="Done">Done</option>
+                        <option value="Drop">Drop</option>
+                    </select>
+                    <details>
+                        <summary>Your current status with the media</summary>
+                        <p>
+                            Active: you are actively following and getting the newest version
+                            <br>Done: you have reached the (foreseeable) ending
+                            <br>Drop: you have stop following it even though you haven't reached the end
+                            <br>If this field is empty: there is an intention to follow it OR you have reached the limit of the authors, but the media is not completed
+                        </p>
+                    </details>
+                    <button>Update</button>
+                </form>
 
-                <h2>Sync database</h2>
-                <details>
-                    <summary>Note with Git</summary>
-                    <p>This will run <code>git pull</code>, so you may need to resolve any conflicts. This may update the server, so it is a good idea to restart the server.</p>
-                    <p>Because this will attempt to run <code>git commit</code>, if there is nothing new in the database, the command will fail.</p>
-                </details>
-                <pre id="sync-warning" class="warning">git pull && git add database.json && git commit -m "Sync database" && git push</pre>
-                <button id="sync">Sync database</button>
-            </form>
+                <form>
+                    <h2>Sync database</h2>
+                    <details>
+                        <summary>Note with Git</summary>
+                        <p>This will run <code>git pull</code>, so you may need to resolve any conflicts. This may update the server, so it is a good idea to restart the server.</p>
+                        <p>Because this will attempt to run <code>git commit</code>, if there is nothing new in the database, the command will fail.</p>
+                    </details>
+                    <pre id="sync-warning" class="warning">git pull && git add database.json && git commit -m "Sync database" && git push</pre>
+                    <button id="sync" type="button">Sync database</button>
+                </form>
+            </div>
         </div>
     </main>
     <footer>
