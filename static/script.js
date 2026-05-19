@@ -87,6 +87,7 @@ function sendToServer() {
             updateForm.style.display = 'block';
             updateForm.querySelector('label').innerHTML = `Update "${entry.name}"`;
             updateForm.setAttribute('media', id);
+            document.getElementById('shelf').value = entry.shelf;
             // We don't scroll into view here because we sometimes need to copy
             // the name of the media (click to select)
             // document.getElementById('activity').scrollIntoView();
