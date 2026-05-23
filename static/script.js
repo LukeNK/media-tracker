@@ -86,7 +86,8 @@ function sendToServer() {
             });
             list.innerHTML = `${activities}`;
             activity.appendChild(list);
-        }
+        } else
+            item.classList.add('open');
 
         // Event to log activity
         info.addEventListener('click', function() {
@@ -161,6 +162,7 @@ document.getElementById('add').addEventListener('submit', function(e) {
         length: document.getElementById('length').value,
         category: document.getElementById('category').value,
         name: document.getElementById('name').value.trim(),
+        note: document.getElementById('note').value.trim(),
         status: document.getElementById('status').value,
         activity: {},
         shelf: "",
