@@ -2156,7 +2156,8 @@
         "format": "Anime",
         "length": "Single",
         "category": "",
-        "name": "Liz and the Blue Bird on Kanopy",
+        "name": "Liz and the Blue Bird",
+        "note": "@ Kanopy",
         "status": "Finished",
         "activity": {},
         "shelf": ""
@@ -2195,6 +2196,16 @@
         "length": "Single",
         "category": "",
         "name": "Monsters Vs Aliens",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "The Death of Stalin",
+        "note": "@ Kanopy",
         "status": "Finished",
         "activity": {},
         "shelf": ""
