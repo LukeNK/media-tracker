@@ -9,7 +9,8 @@
             "2026-02-06": "V 1",
             "2026-02-09": "V 2",
             "2026-02-19": "V 3",
-            "2026-04-27": "V 4"
+            "2026-04-27": "V 4",
+            "2026-05-22": "V 5"
         },
         "shelf": "Active"
     },
@@ -394,7 +395,7 @@
         "name": "I Wanna Be Your Girl",
         "status": "On-going",
         "activity": {},
-        "shelf": ""
+        "shelf": "Active"
     },
     {
         "format": "Movie",
@@ -2179,5 +2180,23 @@
             "2026-05-19": "V 1"
         },
         "shelf": "Done"
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "The Mitchells vs. the Machines",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Single",
+        "category": "",
+        "name": "Monsters Vs Aliens",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
     }
 ]
