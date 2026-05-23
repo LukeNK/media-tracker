@@ -95,7 +95,7 @@ function sendToServer() {
 
         item.appendChild(info);
         item.appendChild(activity);
-        item.appendChild(list);
+        activity.appendChild(list);
         tableBody.appendChild(item);
     }
 
