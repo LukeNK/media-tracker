@@ -167,6 +167,12 @@ document.getElementById('add').addEventListener('submit', function(e) {
         activity: {},
         shelf: "",
     };
+
+    // Simpler to add key first, then delete it later than having to insert it
+    // to the correct position in the object. We don't need note for every entry
+    // because it is rarely used.
+    if (!newEntry.note) delete newEntry.note;
+
     database.push(newEntry);
 
     sendToServer();
