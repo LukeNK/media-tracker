@@ -84,8 +84,11 @@ li {
 
     .activity:not(:empty) { cursor: pointer; }
 
-    .list {
+    .expand {
         display: none;
+    }
+    &.open .expand {
+        display: block;
     }
 }
 

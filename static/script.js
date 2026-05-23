@@ -51,12 +51,17 @@ function sendToServer() {
         info.classList.add('info');
         info.classList.add(entry.status == 'Finished' ? 'ok' : 'no');
         info.innerHTML = `
-            <span class="short">${entry.length}</span><span class="long">${entry.category}</span>
-            <span class="short">${entry.format}</span><span class="long">${entry.name}</span>`;
+            <span class="short">${entry.length}</span>
+            <span class="long">${entry.category}</span>
+            <span class="short">${entry.format}</span>
+            <span class="long">${entry.name}</span>`;
+        if (entry.note) info.innerHTML += `
+            <span class="short"></span>
+            <span class="long expand"><i>${entry.note}</i></span>`;
 
         // Activity bar, activity list, and timeline
         activity.classList.add('activity');
-        list.classList.add('list');
+        list.classList.add('expand');
         let latestActivity = '';
         for (const key in entry.activity) {
             const itemProgress = document.createElement('span');
@@ -77,9 +82,10 @@ function sendToServer() {
         if (entry.shelf) activity.classList.add(entry.shelf);
         if (activities) {
             activity.addEventListener('click', function() {
-                list.style.display = list.style.display === 'block' ? 'none' : 'block';
+                item.classList.toggle('open');
             });
             list.innerHTML = `${activities}`;
+            activity.appendChild(list);
         }
 
         // Event to log activity
@@ -95,7 +101,6 @@ function sendToServer() {
 
         item.appendChild(info);
         item.appendChild(activity);
-        activity.appendChild(list);
         tableBody.appendChild(item);
     }
 
