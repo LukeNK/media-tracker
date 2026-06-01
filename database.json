@@ -10,7 +10,8 @@
             "2026-02-09": "V 2",
             "2026-02-19": "V 3",
             "2026-04-27": "V 4",
-            "2026-05-22": "V 5"
+            "2026-05-22": "V 5",
+            "2026-05-23": "V 6"
         },
         "shelf": "Active"
     },
@@ -2159,8 +2160,10 @@
         "name": "Liz and the Blue Bird",
         "note": "@ Kanopy",
         "status": "Finished",
-        "activity": {},
-        "shelf": ""
+        "activity": {
+            "2026-06-01": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Anime",
