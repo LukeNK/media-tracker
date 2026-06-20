@@ -118,7 +118,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "",
         "name": "Interstellar",
@@ -250,7 +250,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "Funny",
         "name": "The Dictator",
@@ -401,7 +401,7 @@
         "shelf": "Active"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "Gender",
         "name": "Ma vie en rose",
@@ -419,7 +419,7 @@
         "shelf": ""
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "",
         "name": "Crocodile dundee",
@@ -446,7 +446,7 @@
         "shelf": ""
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "Gender",
         "name": "The Danish Girl",
@@ -1360,7 +1360,7 @@
         "shelf": "Drop"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "",
         "name": "Wall-E",
@@ -1371,7 +1371,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Series",
         "category": "",
         "name": "Frozen",
@@ -1382,7 +1382,7 @@
         "shelf": "Drop"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Series",
         "category": "",
         "name": "Avatar",
@@ -1393,7 +1393,7 @@
         "shelf": "Drop"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "",
         "name": "Titanic",
@@ -1404,7 +1404,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Series",
         "category": "",
         "name": "Kung-fu Panda",
@@ -1413,7 +1413,7 @@
         "shelf": ""
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "",
         "name": "Oppenheimer",
@@ -1424,7 +1424,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Series",
         "category": "",
         "name": "FNAF movie",
@@ -1435,7 +1435,7 @@
         "shelf": ""
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "",
         "name": "The Menu",
@@ -1446,7 +1446,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "Gay",
         "name": "Call Me by Your Name",
@@ -1457,7 +1457,7 @@
         "shelf": "Done"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Series",
         "category": "",
         "name": "Madagascar",
@@ -1512,7 +1512,7 @@
         "shelf": "Drop"
     },
     {
-        "format": "Movie",
+        "format": "Film",
         "length": "Volume",
         "category": "",
         "name": "Schindler's List",
