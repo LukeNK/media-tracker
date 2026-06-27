@@ -36,7 +36,9 @@
             "2026-02-14": "V 1",
             "2026-05-19": "V 3",
             "2026-06-09": "V 2",
-            "2026-06-17": "V 4"
+            "2026-06-17": "V 4",
+            "2026-06-20": "V 5",
+            "2026-06-22": "V 6"
         },
         "shelf": "Active"
     },
@@ -2269,6 +2271,63 @@
         "length": "Series",
         "category": "",
         "name": "Boyish Girlfriend",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Volume",
+        "category": "",
+        "name": "Epic the musical",
+        "note": "https://youtu.be/jJ9vtKtilG8",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Story",
+        "length": "Volume",
+        "category": "",
+        "name": "All The Light We Cannot See",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Slice of life",
+        "name": "You Can't Live All on your Own!",
+        "note": "by Mizoko Tsuno",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "I Want to Love You Till Your Dying Day",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Sad / heartwarming ",
+        "name": "Kotaro Lives Alone",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Game",
+        "length": "Volume",
+        "category": "",
+        "name": "Limbus Company",
+        "note": "Highly praised",
         "status": "On-going",
         "activity": {},
         "shelf": ""
