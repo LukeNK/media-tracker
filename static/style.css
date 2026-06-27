@@ -9,6 +9,7 @@ body{
     --color-bg: #1e1e1e;
     --color-bg-theme: #04080f;
     --color-theme: #507dbcff;
+    --color-grey: #333333;
 
     --color-green: #7ef383;
 
@@ -78,7 +79,7 @@ li {
             border-color: var(--color-green);
         }
         &.no {
-            border-color: var(--color-bg);
+            border-color: var(--color-grey);
         }
     }
 
