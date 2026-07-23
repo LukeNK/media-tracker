@@ -399,7 +399,9 @@
         "category": "Gender",
         "name": "I Wanna Be Your Girl",
         "status": "On-going",
-        "activity": {},
+        "activity": {
+            "2026-07-16": "V 1"
+        },
         "shelf": "Active"
     },
     {
@@ -2154,8 +2156,10 @@
         "category": "",
         "name": "Adulthood Is a Myth",
         "status": "Finished",
-        "activity": {},
-        "shelf": "Active"
+        "activity": {
+            "2026-07-07": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Anime",
@@ -2327,6 +2331,17 @@
         "category": "",
         "name": "Limbus Company",
         "note": "Highly praised",
+        "status": "On-going",
+        "activity": {
+            "2026-07-16": "Canto 1"
+        },
+        "shelf": "Active"
+    },
+    {
+        "format": "Film",
+        "length": "Series",
+        "category": "",
+        "name": "Moana",
         "status": "On-going",
         "activity": {},
         "shelf": ""
