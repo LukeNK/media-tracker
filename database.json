@@ -13,7 +13,7 @@
             "2026-05-22": "V 5",
             "2026-05-23": "V 6"
         },
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Manga",
@@ -1853,7 +1853,7 @@
         "activity": {
             "2026-05-08": "P 63"
         },
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Non-fiction",
@@ -2345,5 +2345,70 @@
         "status": "On-going",
         "activity": {},
         "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Single",
+        "category": "Horror",
+        "name": "<a href=\"https://www.youtube.com/watch?v=MwnQJzb19mI\">FIVE NIGHTS AT FREDDY'S: THE BITE OF 83 (Pilot)</a>",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Volume",
+        "category": "Yaoi",
+        "name": "Smell",
+        "note": "By Nagabe",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "",
+        "name": "Brainless Witch",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Game",
+        "length": "Single",
+        "category": "",
+        "name": "Xenofeels",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Post-apocalypse",
+        "name": "The Girl from the Other Side: Siúil, a Rún",
+        "note": "By Nagabe",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Volume",
+        "category": "Post-apocalypse",
+        "name": "The Girl from the Other Side: Siúil, a Rún",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Story",
+        "length": "Series",
+        "category": "Yuri",
+        "name": "Adachi and Shimamura",
+        "status": "On-going",
+        "activity": {},
+        "shelf": "Active"
     }
 ]
