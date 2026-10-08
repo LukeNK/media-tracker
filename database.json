@@ -11,7 +11,8 @@
             "2026-02-19": "V 3",
             "2026-04-27": "V 4",
             "2026-05-22": "V 5",
-            "2026-05-23": "V 6"
+            "2026-05-23": "V 6",
+            "2026-08-30": "V 7"
         },
         "shelf": ""
     },
@@ -38,9 +39,10 @@
             "2026-06-09": "V 2",
             "2026-06-17": "V 4",
             "2026-06-20": "V 5",
-            "2026-06-22": "V 6"
+            "2026-06-22": "V 6",
+            "2026-10-05": "V 7"
         },
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Manga",
@@ -400,9 +402,10 @@
         "name": "I Wanna Be Your Girl",
         "status": "On-going",
         "activity": {
-            "2026-07-16": "V 1"
+            "2026-07-16": "V 1",
+            "2026-09-22": "V 2"
         },
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Film",
@@ -1842,7 +1845,7 @@
         "name": "Feynman's Tips on Physics",
         "status": "Finished",
         "activity": {},
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Non-fiction",
@@ -2245,8 +2248,10 @@
         "category": "",
         "name": "Captain Momo's Secret Base",
         "status": "Finished",
-        "activity": {},
-        "shelf": "Active"
+        "activity": {
+            "2026-08-31": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Manga",
@@ -2335,7 +2340,7 @@
         "activity": {
             "2026-07-16": "Canto 1"
         },
-        "shelf": "Active"
+        "shelf": ""
     },
     {
         "format": "Film",
@@ -2362,8 +2367,10 @@
         "name": "Smell",
         "note": "By Nagabe",
         "status": "Finished",
-        "activity": {},
-        "shelf": ""
+        "activity": {
+            "2026-09-13": "V 1"
+        },
+        "shelf": "Done"
     },
     {
         "format": "Manga",
@@ -2409,6 +2416,81 @@
         "name": "Adachi and Shimamura",
         "status": "On-going",
         "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "Yaoi",
+        "name": "I Think Our Son Is Gay",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "",
+        "name": "The Witch Boy",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Anime",
+        "length": "Volume",
+        "category": "",
+        "name": "Le Petit Prince (2015)",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Film",
+        "length": "Volume",
+        "category": "",
+        "name": "Mayday (2026)",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Story",
+        "length": "Series",
+        "category": "",
+        "name": "Œil de dragon",
+        "note": "Par Cha Sandmael",
+        "status": "On-going",
+        "activity": {
+            "2026-09-25": "V 1"
+        },
         "shelf": "Active"
+    },
+    {
+        "format": "Anime",
+        "length": "Volume",
+        "category": "Yuri",
+        "name": "Fragtime",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "",
+        "name": "Delicious in Dungeon",
+        "status": "Finished",
+        "activity": {},
+        "shelf": ""
+    },
+    {
+        "format": "Manga",
+        "length": "Series",
+        "category": "",
+        "name": "The Boy from Venus",
+        "status": "On-going",
+        "activity": {},
+        "shelf": ""
     }
 ]
